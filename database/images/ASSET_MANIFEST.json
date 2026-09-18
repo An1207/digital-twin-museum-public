@@ -1,0 +1,4038 @@
+{
+  "version": "1.0",
+  "description": "Artwork image manifest. These files are not tracked in Git. Download from shared storage and place under database/images/artworks/.",
+  "storage_note": "Only public museum collection filenames are retained. Supply your own authorized images.",
+  "env_override": "Set IMAGE_ROOT env var to use a different local path (see backend/runtime_config.py)",
+  "total_images": 805,
+  "sources": {
+    "met": "The Metropolitan Museum of Art Open Access collection",
+    "cma": "Cleveland Museum of Art Open Access collection"
+  },
+  "images": [
+    {
+      "filename": "artwork2_cma_001_giuseppe-cades-italian-17501799_portrait-of-a-lady-with-an-elaborate-cartouche.jpg",
+      "source": "cma",
+      "size_kb": 426
+    },
+    {
+      "filename": "artwork2_cma_002_albert-ernest-carrier-belleuse-french-18241887_portrait-bust.jpg",
+      "source": "cma",
+      "size_kb": 258
+    },
+    {
+      "filename": "artwork2_cma_003_pierre-francois-mathis-de-beaulieu-french-francois_snuff-box-tabatiere-with-portrait-of-marie-antoinette.jpg",
+      "source": "cma",
+      "size_kb": 138
+    },
+    {
+      "filename": "artwork2_cma_004_francois-boucher-french-17031770_head-of-a-young-woman.jpg",
+      "source": "cma",
+      "size_kb": 110
+    },
+    {
+      "filename": "artwork2_cma_005_frederic-edwin-church-american-18261900_twilight-in-the-wilderness.jpg",
+      "source": "cma",
+      "size_kb": 239
+    },
+    {
+      "filename": "artwork2_met_006_unknown_statuette-of-a-hippo-goddess-probably-taweret.jpg",
+      "source": "met",
+      "size_kb": 784
+    },
+    {
+      "filename": "artwork2_met_007_unknown_bowl.jpg",
+      "source": "met",
+      "size_kb": 1393
+    },
+    {
+      "filename": "artwork2_met_008_unknown_book-of-the-dead-of-the-priest-of-horus-imhotep-im.jpg",
+      "source": "met",
+      "size_kb": 1714
+    },
+    {
+      "filename": "artwork2_met_009_unknown_the-fieschi-morgan-staurotheke.jpg",
+      "source": "met",
+      "size_kb": 1986
+    },
+    {
+      "filename": "artwork2_met_010_josé-guadalupe-posada_in-proof-of-true-love-a-watercarrier-skeleton-argu.jpg",
+      "source": "met",
+      "size_kb": 3901
+    },
+    {
+      "filename": "artwork2_met_011_jean-antoine-houdon_sabine-houdon-17871836.jpg",
+      "source": "met",
+      "size_kb": 820
+    },
+    {
+      "filename": "artwork2_met_012_unknown_stela-of-the-steward-mentuwoser.jpg",
+      "source": "met",
+      "size_kb": 3021
+    },
+    {
+      "filename": "artwork2_met_013_unknown_tomb-chapel-of-raemkai.jpg",
+      "source": "met",
+      "size_kb": 774
+    },
+    {
+      "filename": "artwork2_met_014_joachim-patinir_the-penitence-of-saint-jerome.jpg",
+      "source": "met",
+      "size_kb": 2708
+    },
+    {
+      "filename": "artwork2_met_015_jean-baptiste-stouf_the-composer-andré-ernest-modeste-grétry-17411813.jpg",
+      "source": "met",
+      "size_kb": 1195
+    },
+    {
+      "filename": "artwork2_met_016_ferdinand-berthoud_longcase-astronomical-regulator.jpg",
+      "source": "met",
+      "size_kb": 2076
+    },
+    {
+      "filename": "artwork2_met_017_guido-reni_charity.jpg",
+      "source": "met",
+      "size_kb": 1626
+    },
+    {
+      "filename": "artwork2_met_018_unknown_yuny-and-his-wife-renenutet.jpg",
+      "source": "met",
+      "size_kb": 1601
+    },
+    {
+      "filename": "artwork2_met_019_unknown_stela-with-taweret-and-mut-of-isheru.jpg",
+      "source": "met",
+      "size_kb": 4221
+    },
+    {
+      "filename": "artwork2_met_020_elisabeth-louise-vigée-le-brun_marie-antoinette-in-a-park.jpg",
+      "source": "met",
+      "size_kb": 4040
+    },
+    {
+      "filename": "artwork2_met_021_northern-highlands-artist_processional-cross.jpg",
+      "source": "met",
+      "size_kb": 243
+    },
+    {
+      "filename": "artwork2_met_022_jacometto-jacometto-veneziano_portrait-of-a-woman-possibly-a-nun-of-san-secondo.jpg",
+      "source": "met",
+      "size_kb": 2293
+    },
+    {
+      "filename": "artwork2_met_023_jacometto-jacometto-veneziano_portrait-of-alvise-contarini-verso-a-tethered-roeb.jpg",
+      "source": "met",
+      "size_kb": 2328
+    },
+    {
+      "filename": "artwork2_met_024_jules-dupré_cows-crossing-a-ford.jpg",
+      "source": "met",
+      "size_kb": 2199
+    },
+    {
+      "filename": "artwork2_met_025_paul-gauguin_ia-orana-maria-hail-mary.jpg",
+      "source": "met",
+      "size_kb": 2861
+    },
+    {
+      "filename": "artwork2_met_026_johann-michael-bauer_settee-one-of-a-pair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 2456
+    },
+    {
+      "filename": "artwork2_met_027_léon-bonnat_an-egyptian-peasant-woman-and-her-child.jpg",
+      "source": "met",
+      "size_kb": 1185
+    },
+    {
+      "filename": "artwork2_met_028_fra-carnevale-bartolomeo-di-giovanni-cor_the-birth-of-the-virgin.jpg",
+      "source": "met",
+      "size_kb": 2291
+    },
+    {
+      "filename": "artwork2_met_029_villeroy_dwarf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 867
+    },
+    {
+      "filename": "artwork2_met_030_villeroy_dwarf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 867
+    },
+    {
+      "filename": "artwork2_met_031_gerard-david_virgin-and-child-with-four-angels.jpg",
+      "source": "met",
+      "size_kb": 3498
+    },
+    {
+      "filename": "artwork2_met_032_jan-jansen-bockeltz_clock-watch-with-astronomical-dial-and-sundial.jpg",
+      "source": "met",
+      "size_kb": 1219
+    },
+    {
+      "filename": "artwork2_met_033_agostino-dantonio-di-duccio_saint-bridget-of-sweden-receiving-the-rule-of-her.jpg",
+      "source": "met",
+      "size_kb": 2022
+    },
+    {
+      "filename": "artwork2_met_034_habiballah-of-sava_the-concourse-of-the-birds-folio-11r-from-a-mantiq.jpg",
+      "source": "met",
+      "size_kb": 4410
+    },
+    {
+      "filename": "artwork2_met_035_unknown_tabernacle-polyptych-with-the-madonna-and-child-an.jpg",
+      "source": "met",
+      "size_kb": 1726
+    },
+    {
+      "filename": "artwork2_met_036_fra-filippo-lippi_portrait-of-a-woman-with-a-man-at-a-casement.jpg",
+      "source": "met",
+      "size_kb": 2600
+    },
+    {
+      "filename": "artwork2_met_037_federico-barocci_saint-francis.jpg",
+      "source": "met",
+      "size_kb": 1563
+    },
+    {
+      "filename": "artwork2_met_038_andrea-del-sarto-andrea-dagnolo_the-holy-family-with-the-young-saint-john-the-bapt.jpg",
+      "source": "met",
+      "size_kb": 1987
+    },
+    {
+      "filename": "artwork2_met_039_joos-van-wassenhove_the-adoration-of-the-magi.jpg",
+      "source": "met",
+      "size_kb": 4272
+    },
+    {
+      "filename": "artwork2_met_040_antico-pier-jacopo-alari-bonacolsi_emperor-antoninus-pius.jpg",
+      "source": "met",
+      "size_kb": 1189
+    },
+    {
+      "filename": "artwork2_met_041_liberale-da-verona_scene-from-a-novella.jpg",
+      "source": "met",
+      "size_kb": 3657
+    },
+    {
+      "filename": "artwork2_met_042_medici-porcelain-manufactory_dish-depicting-the-death-of-saul.jpg",
+      "source": "met",
+      "size_kb": 1477
+    },
+    {
+      "filename": "artwork2_met_043_petrus-christus_head-of-christ-ecce-homo.jpg",
+      "source": "met",
+      "size_kb": 2176
+    },
+    {
+      "filename": "artwork2_met_044_hans-holbein-the-younger_hermann-von-wedigh-iii-died-1560.jpg",
+      "source": "met",
+      "size_kb": 1407
+    },
+    {
+      "filename": "artwork2_met_045_bartolomé-estebán-murillo_don-andrés-de-andrade-y-la-cal.jpg",
+      "source": "met",
+      "size_kb": 2278
+    },
+    {
+      "filename": "artwork2_met_046_paris-bordon_portrait-of-a-man-in-armor-with-two-pages.jpg",
+      "source": "met",
+      "size_kb": 3551
+    },
+    {
+      "filename": "artwork2_met_047_master-of-the-orcagnesque-misericordia_head-of-christ.jpg",
+      "source": "met",
+      "size_kb": 6794
+    },
+    {
+      "filename": "artwork2_met_048_théodore-rousseau_the-forest-in-winter-at-sunset.jpg",
+      "source": "met",
+      "size_kb": 3115
+    },
+    {
+      "filename": "artwork2_met_049_netherlandish-or-french_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 3884
+    },
+    {
+      "filename": "artwork2_met_050_sebastiano-ricci_the-baptism-of-christ.jpg",
+      "source": "met",
+      "size_kb": 2856
+    },
+    {
+      "filename": "artwork2_met_051_unknown_enameled-and-gilded-bottle.jpg",
+      "source": "met",
+      "size_kb": 1128
+    },
+    {
+      "filename": "artwork2_met_052_ambrosius-benson_the-lamentation.jpg",
+      "source": "met",
+      "size_kb": 2563
+    },
+    {
+      "filename": "artwork2_met_053_hans-memling_salvator-mundi.jpg",
+      "source": "met",
+      "size_kb": 6480
+    },
+    {
+      "filename": "artwork2_met_054_raffaellino-del-garbo-also-known-as-raff_holy-family-with-an-angel.jpg",
+      "source": "met",
+      "size_kb": 4399
+    },
+    {
+      "filename": "artwork2_met_055_fra-filippo-lippi_saint-lawrence-enthroned-with-saints-and-donors.jpg",
+      "source": "met",
+      "size_kb": 6268
+    },
+    {
+      "filename": "artwork2_met_056_gerard-david_the-nativity-with-donors-and-saints-jerome-and-leo.jpg",
+      "source": "met",
+      "size_kb": 2944
+    },
+    {
+      "filename": "artwork2_met_057_unknown_our-lady-of-valvanera.jpg",
+      "source": "met",
+      "size_kb": 3457
+    },
+    {
+      "filename": "artwork2_met_058_domenico-ghirlandaio-domenico-bigordi_saint-christopher-and-the-infant-christ.jpg",
+      "source": "met",
+      "size_kb": 77
+    },
+    {
+      "filename": "artwork2_met_059_thomas-doughty_spring-landscape.jpg",
+      "source": "met",
+      "size_kb": 1219
+    },
+    {
+      "filename": "artwork2_met_060_utagawa-hiroshige_six-jewel-rivers-from-various-provinces.jpg",
+      "source": "met",
+      "size_kb": 4834
+    },
+    {
+      "filename": "artwork2_met_061_shi-zhong_winter-landscape-with-fisherman.jpg",
+      "source": "met",
+      "size_kb": 1482
+    },
+    {
+      "filename": "artwork2_met_062_unknown_ten-verses-on-oxherding.jpg",
+      "source": "met",
+      "size_kb": 126
+    },
+    {
+      "filename": "artwork2_met_063_théodore-rousseau_a-river-in-a-meadow.jpg",
+      "source": "met",
+      "size_kb": 4060
+    },
+    {
+      "filename": "artwork2_met_064_camille-pissarro_jalais-hill-pontoise.jpg",
+      "source": "met",
+      "size_kb": 3082
+    },
+    {
+      "filename": "artwork2_met_065_joseph-bidauld_lake-fucino-and-the-abruzzi-mountains.jpg",
+      "source": "met",
+      "size_kb": 1453
+    },
+    {
+      "filename": "artwork2_met_066_chen-hongshou_landscapes-figures-and-flowers.jpg",
+      "source": "met",
+      "size_kb": 1598
+    },
+    {
+      "filename": "artwork2_met_067_hans-memling_young-woman-with-a-pink.jpg",
+      "source": "met",
+      "size_kb": 2507
+    },
+    {
+      "filename": "artwork2_met_068_salvator-rosa_self-portrait.jpg",
+      "source": "met",
+      "size_kb": 2742
+    },
+    {
+      "filename": "artwork2_met_069_francesco-guardi_venice-from-the-bacino-di-san-marco.jpg",
+      "source": "met",
+      "size_kb": 4201
+    },
+    {
+      "filename": "artwork2_met_070_girolamo-dai-libri_madonna-and-child-with-saints.jpg",
+      "source": "met",
+      "size_kb": 1758
+    },
+    {
+      "filename": "artwork2_met_071_abul-qasim-firdausi_bizhan-slaughters-the-wild-boars-of-irman-folio-fr.jpg",
+      "source": "met",
+      "size_kb": 2949
+    },
+    {
+      "filename": "artwork2_met_072_nicolas-froment_the-pérussis-altarpiece.jpg",
+      "source": "met",
+      "size_kb": 2897
+    },
+    {
+      "filename": "artwork2_met_073_gerard-david_the-crucifixion.jpg",
+      "source": "met",
+      "size_kb": 4940
+    },
+    {
+      "filename": "artwork2_met_074_unknown_damascus-room.jpg",
+      "source": "met",
+      "size_kb": 3209
+    },
+    {
+      "filename": "artwork2_met_075_johann-michael-bauer_settee-one-of-a-pair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 777
+    },
+    {
+      "filename": "artwork2_met_076_jacques-louis-david_the-death-of-socrates.jpg",
+      "source": "met",
+      "size_kb": 1751
+    },
+    {
+      "filename": "artwork2_met_077_saint-cloud-factory_glass-cooler-seau-à-verre.jpg",
+      "source": "met",
+      "size_kb": 804
+    },
+    {
+      "filename": "artwork2_met_078_unknown_upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 470
+    },
+    {
+      "filename": "artwork2_met_079_unknown_upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 455
+    },
+    {
+      "filename": "artwork2_met_080_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 469
+    },
+    {
+      "filename": "artwork2_met_081_nicolas-quinibert-foliot_settee-canapé-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 1252
+    },
+    {
+      "filename": "artwork2_met_082_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 496
+    },
+    {
+      "filename": "artwork2_met_083_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 505
+    },
+    {
+      "filename": "artwork2_met_084_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 555
+    },
+    {
+      "filename": "artwork2_met_085_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 449
+    },
+    {
+      "filename": "artwork2_met_086_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 524
+    },
+    {
+      "filename": "artwork2_met_087_beauvais_four-upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 2806
+    },
+    {
+      "filename": "artwork2_met_088_charles-le-brun_the-jabach-family.jpg",
+      "source": "met",
+      "size_kb": 1820
+    },
+    {
+      "filename": "artwork2_met_089_hendrick-ter-brugghen_the-crucifixion-with-the-virgin-and-saint-john.jpg",
+      "source": "met",
+      "size_kb": 1572
+    },
+    {
+      "filename": "artwork2_met_090_johannes-vermeer_a-maid-asleep.jpg",
+      "source": "met",
+      "size_kb": 2784
+    },
+    {
+      "filename": "artwork2_met_091_vincent-van-gogh_larlésienne-madame-joseph-michel-ginoux-marie-juli.jpg",
+      "source": "met",
+      "size_kb": 3224
+    },
+    {
+      "filename": "artwork2_met_092_vincent-van-gogh_la-berceuse-woman-rocking-a-cradle-augustine-alix.jpg",
+      "source": "met",
+      "size_kb": 7032
+    },
+    {
+      "filename": "artwork2_met_093_antoine-le-nain_a-peasant-family.jpg",
+      "source": "met",
+      "size_kb": 2955
+    },
+    {
+      "filename": "artwork2_met_094_adriaen-brouwer_the-smokers.jpg",
+      "source": "met",
+      "size_kb": 3731
+    },
+    {
+      "filename": "artwork2_met_095_govert-flinck_a-young-woman-as-a-shepherdess.jpg",
+      "source": "met",
+      "size_kb": 2469
+    },
+    {
+      "filename": "artwork2_met_096_salomon-van-ruysdael_market-by-the-seashore.jpg",
+      "source": "met",
+      "size_kb": 2111
+    },
+    {
+      "filename": "artwork2_met_097_cornelis-engebrechtsz_the-crucifixion-with-donors-and-saints-peter-and-m.jpg",
+      "source": "met",
+      "size_kb": 3095
+    },
+    {
+      "filename": "artwork2_met_098_north-netherlandish-bruges-painter_christ-bearing-the-cross.jpg",
+      "source": "met",
+      "size_kb": 5107
+    },
+    {
+      "filename": "artwork2_met_099_unknown_pierced-bowl-signed-by-hasan-al-qashani.jpg",
+      "source": "met",
+      "size_kb": 981
+    },
+    {
+      "filename": "artwork2_met_100_giovanni-battista-tiepolo_the-investiture-of-bishop-harold-as-duke-of-franco.jpg",
+      "source": "met",
+      "size_kb": 1995
+    },
+    {
+      "filename": "artwork2_met_101_netherlandish-brussels-painter_the-fifteen-mysteries-and-the-virgin-of-the-rosary.jpg",
+      "source": "met",
+      "size_kb": 3366
+    },
+    {
+      "filename": "artwork2_met_102_caravaggio-michelangelo-merisi_the-musicians.jpg",
+      "source": "met",
+      "size_kb": 4573
+    },
+    {
+      "filename": "artwork2_met_103_georges-de-la-tour_the-fortune-teller.jpg",
+      "source": "met",
+      "size_kb": 4230
+    },
+    {
+      "filename": "artwork2_met_104_lucas-cranach-the-elder-and-workshop_friedrich-iii-14631525-the-wise-elector-of-saxony.jpg",
+      "source": "met",
+      "size_kb": 2531
+    },
+    {
+      "filename": "artwork2_met_105_velázquez-diego-rodríguez-de-silva-y-vel_philip-iv-16051665-king-of-spain.jpg",
+      "source": "met",
+      "size_kb": 921
+    },
+    {
+      "filename": "artwork2_met_106_carlo-dolci_saint-philip-neri-15151595.jpg",
+      "source": "met",
+      "size_kb": 2545
+    },
+    {
+      "filename": "artwork2_met_107_giovanni-battista-gaulli-il-baciccio_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 2081
+    },
+    {
+      "filename": "artwork2_met_108_francesco-fanelli_mercury-and-cupid.jpg",
+      "source": "met",
+      "size_kb": 1106
+    },
+    {
+      "filename": "artwork2_met_109_laurent-de-la-hyre_allegory-of-music.jpg",
+      "source": "met",
+      "size_kb": 2172
+    },
+    {
+      "filename": "artwork2_met_110_massimiliano-soldani_the-sacrifice-of-jephthahs-daughter.jpg",
+      "source": "met",
+      "size_kb": 1389
+    },
+    {
+      "filename": "artwork2_met_111_fulvio-signorini_saint-bernardino-of-siena.jpg",
+      "source": "met",
+      "size_kb": 1672
+    },
+    {
+      "filename": "artwork2_met_112_fulvio-signorini_saint-catherine-of-siena.jpg",
+      "source": "met",
+      "size_kb": 1467
+    },
+    {
+      "filename": "artwork2_met_113_juan-bautista-martínez-del-mazo_don-gaspar-de-guzmán-15871645-count-duke-of-olivar.jpg",
+      "source": "met",
+      "size_kb": 5025
+    },
+    {
+      "filename": "artwork2_met_114_domenico-guidobono_an-allegory.jpg",
+      "source": "met",
+      "size_kb": 84
+    },
+    {
+      "filename": "artwork2_met_115_giuseppe-recco_a-cat-stealing-fish.jpg",
+      "source": "met",
+      "size_kb": 3416
+    },
+    {
+      "filename": "artwork2_met_116_giuseppe-de-levi_bowl-with-cover-perfume-burner.jpg",
+      "source": "met",
+      "size_kb": 2231
+    },
+    {
+      "filename": "artwork2_met_117_unknown_seated-male-figure.jpg",
+      "source": "met",
+      "size_kb": 1029
+    },
+    {
+      "filename": "artwork2_met_118_musō-soseki_abiding-nowhere-the-awakened-mind-arises.jpg",
+      "source": "met",
+      "size_kb": 3119
+    },
+    {
+      "filename": "artwork2_met_119_dapeng-zhengkun-taihō-shōkon_bamboo-in-snow.jpg",
+      "source": "met",
+      "size_kb": 1688
+    },
+    {
+      "filename": "artwork2_met_120_torii-kiyomitsu_kabuki-actor-ichimura-uzaemon-ix.jpg",
+      "source": "met",
+      "size_kb": 2106
+    },
+    {
+      "filename": "artwork2_met_121_suzuki-harunobu_palindromic-poems-kaibunka-kyo.jpg",
+      "source": "met",
+      "size_kb": 2855
+    },
+    {
+      "filename": "artwork2_met_122_unknown_tobatsu-bishamonten.jpg",
+      "source": "met",
+      "size_kb": 1817
+    },
+    {
+      "filename": "artwork2_met_123_ichiryūsai-yoshitoyo_recently-imported-big-elephant.jpg",
+      "source": "met",
+      "size_kb": 2849
+    },
+    {
+      "filename": "artwork2_met_124_miyagawa-chōshun-宮川長春_handscroll-of-ten-homoerotic-nanshoku-scenes.jpg",
+      "source": "met",
+      "size_kb": 3853
+    },
+    {
+      "filename": "artwork2_met_125_han-gan_night-shining-white.jpg",
+      "source": "met",
+      "size_kb": 2535
+    },
+    {
+      "filename": "artwork2_met_126_sesson-yūbai-雪村友梅_on-reclusion.jpg",
+      "source": "met",
+      "size_kb": 3158
+    },
+    {
+      "filename": "artwork2_met_127_ike-no-taiga_two-poems-from-the-collection-of-ancient-and-moder.jpg",
+      "source": "met",
+      "size_kb": 5381
+    },
+    {
+      "filename": "artwork2_met_128_kano-naizen_zheng-huangniu-and-yushanzhu.jpg",
+      "source": "met",
+      "size_kb": 1986
+    },
+    {
+      "filename": "artwork2_met_129_edouard-manet_boating.jpg",
+      "source": "met",
+      "size_kb": 5488
+    },
+    {
+      "filename": "artwork2_met_130_ogata-kōrin_white-poppies-on-gold-ground.jpg",
+      "source": "met",
+      "size_kb": 2099
+    },
+    {
+      "filename": "artwork2_met_131_wang-mian_fragrant-snow-at-broken-bridge.jpg",
+      "source": "met",
+      "size_kb": 1871
+    },
+    {
+      "filename": "artwork2_met_132_louis-poterat-manufactory_potpourri-jar.jpg",
+      "source": "met",
+      "size_kb": 1025
+    },
+    {
+      "filename": "artwork2_met_133_unknown_autumn-trees-and-grasses-by-a-stream.jpg",
+      "source": "met",
+      "size_kb": 2419
+    },
+    {
+      "filename": "artwork2_met_134_henri-regnault_salome.jpg",
+      "source": "met",
+      "size_kb": 549
+    },
+    {
+      "filename": "artwork2_met_135_li-gonglin_the-classic-of-filial-piety.jpg",
+      "source": "met",
+      "size_kb": 2612
+    },
+    {
+      "filename": "artwork2_met_136_chantilly_shoulao.jpg",
+      "source": "met",
+      "size_kb": 1532
+    },
+    {
+      "filename": "artwork2_met_137_andrea-zambelli-lhonnesta_torah-crown-keter.jpg",
+      "source": "met",
+      "size_kb": 1818
+    },
+    {
+      "filename": "artwork2_met_138_eugène-delacroix_christ-asleep-during-the-tempest.jpg",
+      "source": "met",
+      "size_kb": 3785
+    },
+    {
+      "filename": "artwork2_met_139_amir-khusrau-dihlavi_alexander-is-lowered-into-the-sea-folio-from-a-kha.jpg",
+      "source": "met",
+      "size_kb": 1865
+    },
+    {
+      "filename": "artwork2_met_140_anonymous-french-19th-century_design-for-a-valance-with-floral-motifs.jpg",
+      "source": "met",
+      "size_kb": 2307
+    },
+    {
+      "filename": "artwork2_met_141_anonymous-french-19th-century_design-for-a-valance-with-bundles-and-garlands-of.jpg",
+      "source": "met",
+      "size_kb": 3631
+    },
+    {
+      "filename": "artwork2_met_142_anonymous-french-19th-century_design-for-a-sofa-seat-cover-with-an-ornamental-fr.jpg",
+      "source": "met",
+      "size_kb": 2007
+    },
+    {
+      "filename": "artwork2_met_143_unknown_panther.jpg",
+      "source": "met",
+      "size_kb": 1759
+    },
+    {
+      "filename": "artwork2_met_144_pierre-auguste-cot_the-storm.jpg",
+      "source": "met",
+      "size_kb": 1715
+    },
+    {
+      "filename": "artwork2_met_145_eugène-delacroix_the-natchez.jpg",
+      "source": "met",
+      "size_kb": 3318
+    },
+    {
+      "filename": "artwork2_met_146_thomas-fearnley_study-of-water-and-plants.jpg",
+      "source": "met",
+      "size_kb": 4429
+    },
+    {
+      "filename": "artwork2_met_147_anonymous_valentine.jpg",
+      "source": "met",
+      "size_kb": 1412
+    },
+    {
+      "filename": "artwork2_met_148_eugène-delacroix_george-sands-garden-at-nohant.jpg",
+      "source": "met",
+      "size_kb": 4914
+    },
+    {
+      "filename": "artwork2_met_149_rosa-bonheur_the-horse-fair.jpg",
+      "source": "met",
+      "size_kb": 2629
+    },
+    {
+      "filename": "artwork2_met_150_gai-qi_famous-women.jpg",
+      "source": "met",
+      "size_kb": 1142
+    },
+    {
+      "filename": "artwork2_met_151_george-frederic-watts_ariadne.jpg",
+      "source": "met",
+      "size_kb": 3903
+    },
+    {
+      "filename": "artwork2_met_152_camille-corot_a-woman-reading.jpg",
+      "source": "met",
+      "size_kb": 3309
+    },
+    {
+      "filename": "artwork2_met_153_paul-cézanne_rocks-at-fontainebleau.jpg",
+      "source": "met",
+      "size_kb": 4489
+    },
+    {
+      "filename": "artwork2_met_154_vincent-van-gogh_shoes.jpg",
+      "source": "met",
+      "size_kb": 4439
+    },
+    {
+      "filename": "artwork2_met_155_vincent-van-gogh_wheat-field-with-cypresses.jpg",
+      "source": "met",
+      "size_kb": 8096
+    },
+    {
+      "filename": "artwork2_met_156_vincent-van-gogh_madame-roulin-and-her-baby.jpg",
+      "source": "met",
+      "size_kb": 3600
+    },
+    {
+      "filename": "artwork2_met_157_vincent-van-gogh_irises.jpg",
+      "source": "met",
+      "size_kb": 5106
+    },
+    {
+      "filename": "artwork2_met_158_vincent-van-gogh_self-portrait-with-a-straw-hat-obverse-the-potato.jpg",
+      "source": "met",
+      "size_kb": 3125
+    },
+    {
+      "filename": "artwork2_met_159_vincent-van-gogh_oleanders.jpg",
+      "source": "met",
+      "size_kb": 3496
+    },
+    {
+      "filename": "artwork2_met_160_vincent-van-gogh_road-in-etten.jpg",
+      "source": "met",
+      "size_kb": 3483
+    },
+    {
+      "filename": "artwork2_met_161_vincent-van-gogh_olive-trees.jpg",
+      "source": "met",
+      "size_kb": 3848
+    },
+    {
+      "filename": "artwork2_met_162_vincent-van-gogh_corridor-in-the-asylum.jpg",
+      "source": "met",
+      "size_kb": 3446
+    },
+    {
+      "filename": "artwork2_met_163_vincent-van-gogh_women-picking-olives.jpg",
+      "source": "met",
+      "size_kb": 7540
+    },
+    {
+      "filename": "artwork2_met_164_vincent-van-gogh_first-steps-after-millet.jpg",
+      "source": "met",
+      "size_kb": 2608
+    },
+    {
+      "filename": "artwork2_met_165_vincent-van-gogh_cypresses.jpg",
+      "source": "met",
+      "size_kb": 2791
+    },
+    {
+      "filename": "artwork2_met_166_vincent-van-gogh_peasant-woman-cooking-by-a-fireplace.jpg",
+      "source": "met",
+      "size_kb": 3674
+    },
+    {
+      "filename": "artwork2_met_167_vincent-van-gogh_the-potato-peeler-reverse-self-portrait-with-a-str.jpg",
+      "source": "met",
+      "size_kb": 1860
+    },
+    {
+      "filename": "artwork2_met_168_vincent-van-gogh_sunflowers.jpg",
+      "source": "met",
+      "size_kb": 5924
+    },
+    {
+      "filename": "artwork2_met_169_vincent-van-gogh_roses.jpg",
+      "source": "met",
+      "size_kb": 5097
+    },
+    {
+      "filename": "artwork2_met_170_vincent-van-gogh_bouquet-of-flowers-in-a-vase.jpg",
+      "source": "met",
+      "size_kb": 3947
+    },
+    {
+      "filename": "artwork2_met_171_rembrandt-rembrandt-van-rijn_aristotle-with-a-bust-of-homer.jpg",
+      "source": "met",
+      "size_kb": 3405
+    },
+    {
+      "filename": "artwork2_met_172_dr-paul-ferdinand-gachet_vincent-van-gogh-on-his-deathbed.jpg",
+      "source": "met",
+      "size_kb": 3639
+    },
+    {
+      "filename": "artwork2_met_173_auguste-renoir_eugène-murer-hyacinthe-eugène-meunier-18411906.jpg",
+      "source": "met",
+      "size_kb": 3034
+    },
+    {
+      "filename": "artwork2_met_174_vincent-van-gogh_nursery-on-schenkweg.jpg",
+      "source": "met",
+      "size_kb": 2231
+    },
+    {
+      "filename": "artwork2_met_175_vincent-van-gogh_burning-weeds.jpg",
+      "source": "met",
+      "size_kb": 4445
+    },
+    {
+      "filename": "artwork2_met_176_vincent-van-gogh_gardener-by-an-apple-tree.jpg",
+      "source": "met",
+      "size_kb": 4810
+    },
+    {
+      "filename": "artwork2_met_177_vincent-van-gogh_street-in-saintes-maries-de-la-mer.jpg",
+      "source": "met",
+      "size_kb": 3096
+    },
+    {
+      "filename": "artwork2_met_178_unknown_head-from-a-statue-of-king-amenhotep-i.jpg",
+      "source": "met",
+      "size_kb": 1781
+    },
+    {
+      "filename": "artwork2_met_179_unknown_stela-of-ptahmose.jpg",
+      "source": "met",
+      "size_kb": 3153
+    },
+    {
+      "filename": "artwork2_met_180_unknown_mold-fragment-with-musicians.jpg",
+      "source": "met",
+      "size_kb": 1507
+    },
+    {
+      "filename": "artwork2_met_181_gerard-david_christ-blessing.jpg",
+      "source": "met",
+      "size_kb": 3061
+    },
+    {
+      "filename": "artwork2_met_182_giacomo-ceruti_a-woman-with-a-dog.jpg",
+      "source": "met",
+      "size_kb": 4372
+    },
+    {
+      "filename": "artwork2_met_183_el-greco-domenikos-theotokopoulos_christ-healing-the-blind.jpg",
+      "source": "met",
+      "size_kb": 5521
+    },
+    {
+      "filename": "artwork2_met_184_giovanni-battista-tiepolo_the-apotheosis-of-the-spanish-monarchy.jpg",
+      "source": "met",
+      "size_kb": 3363
+    },
+    {
+      "filename": "artwork2_met_185_jules-bastien-lepage_joan-of-arc.jpg",
+      "source": "met",
+      "size_kb": 5720
+    },
+    {
+      "filename": "artwork2_met_186_unknown_statuette-of-a-hippo-goddess-probably-taweret.jpg",
+      "source": "met",
+      "size_kb": 784
+    },
+    {
+      "filename": "artwork2_met_187_unknown_bowl.jpg",
+      "source": "met",
+      "size_kb": 1390
+    },
+    {
+      "filename": "artwork2_met_188_unknown_book-of-the-dead-of-the-priest-of-horus-imhotep-im.jpg",
+      "source": "met",
+      "size_kb": 1714
+    },
+    {
+      "filename": "artwork2_met_189_unknown_the-fieschi-morgan-staurotheke.jpg",
+      "source": "met",
+      "size_kb": 1986
+    },
+    {
+      "filename": "artwork2_met_190_josé-guadalupe-posada_in-proof-of-true-love-a-watercarrier-skeleton-argu.jpg",
+      "source": "met",
+      "size_kb": 3901
+    },
+    {
+      "filename": "artwork2_met_191_jean-antoine-houdon_sabine-houdon-17871836.jpg",
+      "source": "met",
+      "size_kb": 820
+    },
+    {
+      "filename": "artwork2_met_192_unknown_stela-of-the-steward-mentuwoser.jpg",
+      "source": "met",
+      "size_kb": 3021
+    },
+    {
+      "filename": "artwork2_met_193_unknown_tomb-chapel-of-raemkai.jpg",
+      "source": "met",
+      "size_kb": 744
+    },
+    {
+      "filename": "artwork2_met_194_joachim-patinir_the-penitence-of-saint-jerome.jpg",
+      "source": "met",
+      "size_kb": 2708
+    },
+    {
+      "filename": "artwork2_met_195_jean-baptiste-stouf_the-composer-andré-ernest-modeste-grétry-17411813.jpg",
+      "source": "met",
+      "size_kb": 1195
+    },
+    {
+      "filename": "artwork2_met_196_ferdinand-berthoud_longcase-astronomical-regulator.jpg",
+      "source": "met",
+      "size_kb": 2076
+    },
+    {
+      "filename": "artwork2_met_197_guido-reni_charity.jpg",
+      "source": "met",
+      "size_kb": 1626
+    },
+    {
+      "filename": "artwork2_met_198_unknown_yuny-and-his-wife-renenutet.jpg",
+      "source": "met",
+      "size_kb": 1601
+    },
+    {
+      "filename": "artwork2_met_199_unknown_stela-with-taweret-and-mut-of-isheru.jpg",
+      "source": "met",
+      "size_kb": 4221
+    },
+    {
+      "filename": "artwork2_met_200_elisabeth-louise-vigée-le-brun_marie-antoinette-in-a-park.jpg",
+      "source": "met",
+      "size_kb": 4040
+    },
+    {
+      "filename": "artwork2_met_201_northern-highlands-artist_processional-cross.jpg",
+      "source": "met",
+      "size_kb": 243
+    },
+    {
+      "filename": "artwork2_met_202_jacometto-jacometto-veneziano_portrait-of-a-woman-possibly-a-nun-of-san-secondo.jpg",
+      "source": "met",
+      "size_kb": 2293
+    },
+    {
+      "filename": "artwork2_met_203_jacometto-jacometto-veneziano_portrait-of-alvise-contarini-verso-a-tethered-roeb.jpg",
+      "source": "met",
+      "size_kb": 2328
+    },
+    {
+      "filename": "artwork2_met_204_jules-dupré_cows-crossing-a-ford.jpg",
+      "source": "met",
+      "size_kb": 2199
+    },
+    {
+      "filename": "artwork2_met_205_paul-gauguin_ia-orana-maria-hail-mary.jpg",
+      "source": "met",
+      "size_kb": 2861
+    },
+    {
+      "filename": "artwork2_met_206_johann-michael-bauer_settee-one-of-a-pair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 2456
+    },
+    {
+      "filename": "artwork2_met_207_léon-bonnat_an-egyptian-peasant-woman-and-her-child.jpg",
+      "source": "met",
+      "size_kb": 1185
+    },
+    {
+      "filename": "artwork2_met_208_fra-carnevale-bartolomeo-di-giovanni-cor_the-birth-of-the-virgin.jpg",
+      "source": "met",
+      "size_kb": 2291
+    },
+    {
+      "filename": "artwork2_met_209_villeroy_dwarf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 867
+    },
+    {
+      "filename": "artwork2_met_210_villeroy_dwarf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 867
+    },
+    {
+      "filename": "artwork2_met_211_gerard-david_virgin-and-child-with-four-angels.jpg",
+      "source": "met",
+      "size_kb": 3498
+    },
+    {
+      "filename": "artwork2_met_212_jan-jansen-bockeltz_clock-watch-with-astronomical-dial-and-sundial.jpg",
+      "source": "met",
+      "size_kb": 1219
+    },
+    {
+      "filename": "artwork2_met_213_agostino-dantonio-di-duccio_saint-bridget-of-sweden-receiving-the-rule-of-her.jpg",
+      "source": "met",
+      "size_kb": 2022
+    },
+    {
+      "filename": "artwork2_met_214_habiballah-of-sava_the-concourse-of-the-birds-folio-11r-from-a-mantiq.jpg",
+      "source": "met",
+      "size_kb": 4410
+    },
+    {
+      "filename": "artwork2_met_215_unknown_tabernacle-polyptych-with-the-madonna-and-child-an.jpg",
+      "source": "met",
+      "size_kb": 1726
+    },
+    {
+      "filename": "artwork2_met_216_fra-filippo-lippi_portrait-of-a-woman-with-a-man-at-a-casement.jpg",
+      "source": "met",
+      "size_kb": 2600
+    },
+    {
+      "filename": "artwork2_met_217_federico-barocci_saint-francis.jpg",
+      "source": "met",
+      "size_kb": 1563
+    },
+    {
+      "filename": "artwork2_met_218_andrea-del-sarto-andrea-dagnolo_the-holy-family-with-the-young-saint-john-the-bapt.jpg",
+      "source": "met",
+      "size_kb": 1987
+    },
+    {
+      "filename": "artwork2_met_219_joos-van-wassenhove_the-adoration-of-the-magi.jpg",
+      "source": "met",
+      "size_kb": 4272
+    },
+    {
+      "filename": "artwork2_met_220_antico-pier-jacopo-alari-bonacolsi_emperor-antoninus-pius.jpg",
+      "source": "met",
+      "size_kb": 1189
+    },
+    {
+      "filename": "artwork2_met_221_liberale-da-verona_scene-from-a-novella.jpg",
+      "source": "met",
+      "size_kb": 3657
+    },
+    {
+      "filename": "artwork2_met_222_medici-porcelain-manufactory_dish-depicting-the-death-of-saul.jpg",
+      "source": "met",
+      "size_kb": 1386
+    },
+    {
+      "filename": "artwork2_met_223_petrus-christus_head-of-christ-ecce-homo.jpg",
+      "source": "met",
+      "size_kb": 2176
+    },
+    {
+      "filename": "artwork2_met_224_hans-holbein-the-younger_hermann-von-wedigh-iii-died-1560.jpg",
+      "source": "met",
+      "size_kb": 1407
+    },
+    {
+      "filename": "artwork2_met_225_bartolomé-estebán-murillo_don-andrés-de-andrade-y-la-cal.jpg",
+      "source": "met",
+      "size_kb": 2278
+    },
+    {
+      "filename": "artwork2_met_226_paris-bordon_portrait-of-a-man-in-armor-with-two-pages.jpg",
+      "source": "met",
+      "size_kb": 3551
+    },
+    {
+      "filename": "artwork2_met_227_master-of-the-orcagnesque-misericordia_head-of-christ.jpg",
+      "source": "met",
+      "size_kb": 6794
+    },
+    {
+      "filename": "artwork2_met_228_théodore-rousseau_the-forest-in-winter-at-sunset.jpg",
+      "source": "met",
+      "size_kb": 3115
+    },
+    {
+      "filename": "artwork2_met_229_netherlandish-or-french_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 3884
+    },
+    {
+      "filename": "artwork2_met_230_sebastiano-ricci_the-baptism-of-christ.jpg",
+      "source": "met",
+      "size_kb": 2856
+    },
+    {
+      "filename": "artwork2_met_231_unknown_enameled-and-gilded-bottle.jpg",
+      "source": "met",
+      "size_kb": 1125
+    },
+    {
+      "filename": "artwork2_met_232_ambrosius-benson_the-lamentation.jpg",
+      "source": "met",
+      "size_kb": 2563
+    },
+    {
+      "filename": "artwork2_met_233_hans-memling_salvator-mundi.jpg",
+      "source": "met",
+      "size_kb": 6480
+    },
+    {
+      "filename": "artwork2_met_234_raffaellino-del-garbo-also-known-as-raff_holy-family-with-an-angel.jpg",
+      "source": "met",
+      "size_kb": 4399
+    },
+    {
+      "filename": "artwork2_met_235_fra-filippo-lippi_saint-lawrence-enthroned-with-saints-and-donors.jpg",
+      "source": "met",
+      "size_kb": 6268
+    },
+    {
+      "filename": "artwork2_met_236_gerard-david_the-nativity-with-donors-and-saints-jerome-and-leo.jpg",
+      "source": "met",
+      "size_kb": 2944
+    },
+    {
+      "filename": "artwork2_met_237_unknown_our-lady-of-valvanera.jpg",
+      "source": "met",
+      "size_kb": 3457
+    },
+    {
+      "filename": "artwork2_met_238_domenico-ghirlandaio-domenico-bigordi_saint-christopher-and-the-infant-christ.jpg",
+      "source": "met",
+      "size_kb": 73
+    },
+    {
+      "filename": "artwork2_met_239_thomas-doughty_spring-landscape.jpg",
+      "source": "met",
+      "size_kb": 1180
+    },
+    {
+      "filename": "artwork2_met_240_utagawa-hiroshige_six-jewel-rivers-from-various-provinces.jpg",
+      "source": "met",
+      "size_kb": 4834
+    },
+    {
+      "filename": "artwork2_met_241_shi-zhong_winter-landscape-with-fisherman.jpg",
+      "source": "met",
+      "size_kb": 1466
+    },
+    {
+      "filename": "artwork2_met_242_unknown_ten-verses-on-oxherding.jpg",
+      "source": "met",
+      "size_kb": 126
+    },
+    {
+      "filename": "artwork2_met_243_théodore-rousseau_a-river-in-a-meadow.jpg",
+      "source": "met",
+      "size_kb": 4060
+    },
+    {
+      "filename": "artwork2_met_244_camille-pissarro_jalais-hill-pontoise.jpg",
+      "source": "met",
+      "size_kb": 3082
+    },
+    {
+      "filename": "artwork2_met_245_joseph-bidauld_lake-fucino-and-the-abruzzi-mountains.jpg",
+      "source": "met",
+      "size_kb": 1449
+    },
+    {
+      "filename": "artwork2_met_246_chen-hongshou_landscapes-figures-and-flowers.jpg",
+      "source": "met",
+      "size_kb": 1598
+    },
+    {
+      "filename": "artwork2_met_247_hans-memling_young-woman-with-a-pink.jpg",
+      "source": "met",
+      "size_kb": 2507
+    },
+    {
+      "filename": "artwork2_met_248_salvator-rosa_self-portrait.jpg",
+      "source": "met",
+      "size_kb": 2742
+    },
+    {
+      "filename": "artwork2_met_249_francesco-guardi_venice-from-the-bacino-di-san-marco.jpg",
+      "source": "met",
+      "size_kb": 4201
+    },
+    {
+      "filename": "artwork2_met_250_girolamo-dai-libri_madonna-and-child-with-saints.jpg",
+      "source": "met",
+      "size_kb": 1758
+    },
+    {
+      "filename": "artwork2_met_251_abul-qasim-firdausi_bizhan-slaughters-the-wild-boars-of-irman-folio-fr.jpg",
+      "source": "met",
+      "size_kb": 2949
+    },
+    {
+      "filename": "artwork2_met_252_nicolas-froment_the-pérussis-altarpiece.jpg",
+      "source": "met",
+      "size_kb": 2897
+    },
+    {
+      "filename": "artwork2_met_253_gerard-david_the-crucifixion.jpg",
+      "source": "met",
+      "size_kb": 4940
+    },
+    {
+      "filename": "artwork2_met_254_unknown_damascus-room.jpg",
+      "source": "met",
+      "size_kb": 3209
+    },
+    {
+      "filename": "artwork2_met_255_johann-michael-bauer_settee-one-of-a-pair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 759
+    },
+    {
+      "filename": "artwork2_met_256_jacques-louis-david_the-death-of-socrates.jpg",
+      "source": "met",
+      "size_kb": 1751
+    },
+    {
+      "filename": "artwork2_met_257_saint-cloud-factory_glass-cooler-seau-à-verre.jpg",
+      "source": "met",
+      "size_kb": 804
+    },
+    {
+      "filename": "artwork2_met_258_unknown_upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 455
+    },
+    {
+      "filename": "artwork2_met_259_unknown_upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 455
+    },
+    {
+      "filename": "artwork2_met_260_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 442
+    },
+    {
+      "filename": "artwork2_met_261_nicolas-quinibert-foliot_settee-canapé-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 1228
+    },
+    {
+      "filename": "artwork2_met_262_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 465
+    },
+    {
+      "filename": "artwork2_met_263_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 474
+    },
+    {
+      "filename": "artwork2_met_264_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 530
+    },
+    {
+      "filename": "artwork2_met_265_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 422
+    },
+    {
+      "filename": "artwork2_met_266_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 499
+    },
+    {
+      "filename": "artwork2_met_267_beauvais_four-upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 2806
+    },
+    {
+      "filename": "artwork2_met_268_charles-le-brun_the-jabach-family.jpg",
+      "source": "met",
+      "size_kb": 1820
+    },
+    {
+      "filename": "artwork2_met_269_hendrick-ter-brugghen_the-crucifixion-with-the-virgin-and-saint-john.jpg",
+      "source": "met",
+      "size_kb": 1572
+    },
+    {
+      "filename": "artwork2_met_270_johannes-vermeer_a-maid-asleep.jpg",
+      "source": "met",
+      "size_kb": 2784
+    },
+    {
+      "filename": "artwork2_met_271_vincent-van-gogh_larlésienne-madame-joseph-michel-ginoux-marie-juli.jpg",
+      "source": "met",
+      "size_kb": 3224
+    },
+    {
+      "filename": "artwork2_met_272_vincent-van-gogh_la-berceuse-woman-rocking-a-cradle-augustine-alix.jpg",
+      "source": "met",
+      "size_kb": 7032
+    },
+    {
+      "filename": "artwork2_met_273_antoine-le-nain_a-peasant-family.jpg",
+      "source": "met",
+      "size_kb": 2955
+    },
+    {
+      "filename": "artwork2_met_274_adriaen-brouwer_the-smokers.jpg",
+      "source": "met",
+      "size_kb": 3731
+    },
+    {
+      "filename": "artwork2_met_275_govert-flinck_a-young-woman-as-a-shepherdess.jpg",
+      "source": "met",
+      "size_kb": 2469
+    },
+    {
+      "filename": "artwork2_met_276_salomon-van-ruysdael_market-by-the-seashore.jpg",
+      "source": "met",
+      "size_kb": 2111
+    },
+    {
+      "filename": "artwork2_met_277_cornelis-engebrechtsz_the-crucifixion-with-donors-and-saints-peter-and-m.jpg",
+      "source": "met",
+      "size_kb": 3095
+    },
+    {
+      "filename": "artwork2_met_278_north-netherlandish-bruges-painter_christ-bearing-the-cross.jpg",
+      "source": "met",
+      "size_kb": 5107
+    },
+    {
+      "filename": "artwork2_met_279_unknown_pierced-bowl-signed-by-hasan-al-qashani.jpg",
+      "source": "met",
+      "size_kb": 981
+    },
+    {
+      "filename": "artwork2_met_280_giovanni-battista-tiepolo_the-investiture-of-bishop-harold-as-duke-of-franco.jpg",
+      "source": "met",
+      "size_kb": 1966
+    },
+    {
+      "filename": "artwork2_met_281_netherlandish-brussels-painter_the-fifteen-mysteries-and-the-virgin-of-the-rosary.jpg",
+      "source": "met",
+      "size_kb": 3366
+    },
+    {
+      "filename": "artwork2_met_282_caravaggio-michelangelo-merisi_the-musicians.jpg",
+      "source": "met",
+      "size_kb": 4573
+    },
+    {
+      "filename": "artwork2_met_283_georges-de-la-tour_the-fortune-teller.jpg",
+      "source": "met",
+      "size_kb": 4230
+    },
+    {
+      "filename": "artwork2_met_284_lucas-cranach-the-elder-and-workshop_friedrich-iii-14631525-the-wise-elector-of-saxony.jpg",
+      "source": "met",
+      "size_kb": 2531
+    },
+    {
+      "filename": "artwork2_met_285_velázquez-diego-rodríguez-de-silva-y-vel_philip-iv-16051665-king-of-spain.jpg",
+      "source": "met",
+      "size_kb": 921
+    },
+    {
+      "filename": "artwork2_met_286_carlo-dolci_saint-philip-neri-15151595.jpg",
+      "source": "met",
+      "size_kb": 2545
+    },
+    {
+      "filename": "artwork2_met_287_giovanni-battista-gaulli-il-baciccio_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 2081
+    },
+    {
+      "filename": "artwork2_met_288_francesco-fanelli_mercury-and-cupid.jpg",
+      "source": "met",
+      "size_kb": 1090
+    },
+    {
+      "filename": "artwork2_met_289_laurent-de-la-hyre_allegory-of-music.jpg",
+      "source": "met",
+      "size_kb": 2172
+    },
+    {
+      "filename": "artwork2_met_290_massimiliano-soldani_the-sacrifice-of-jephthahs-daughter.jpg",
+      "source": "met",
+      "size_kb": 1329
+    },
+    {
+      "filename": "artwork2_met_291_fulvio-signorini_saint-bernardino-of-siena.jpg",
+      "source": "met",
+      "size_kb": 1672
+    },
+    {
+      "filename": "artwork2_met_292_fulvio-signorini_saint-catherine-of-siena.jpg",
+      "source": "met",
+      "size_kb": 1467
+    },
+    {
+      "filename": "artwork2_met_293_juan-bautista-martínez-del-mazo_don-gaspar-de-guzmán-15871645-count-duke-of-olivar.jpg",
+      "source": "met",
+      "size_kb": 5025
+    },
+    {
+      "filename": "artwork2_met_294_domenico-guidobono_an-allegory.jpg",
+      "source": "met",
+      "size_kb": 84
+    },
+    {
+      "filename": "artwork2_met_295_giuseppe-recco_a-cat-stealing-fish.jpg",
+      "source": "met",
+      "size_kb": 3416
+    },
+    {
+      "filename": "artwork2_met_296_giuseppe-de-levi_bowl-with-cover-perfume-burner.jpg",
+      "source": "met",
+      "size_kb": 2216
+    },
+    {
+      "filename": "artwork2_met_297_unknown_seated-male-figure.jpg",
+      "source": "met",
+      "size_kb": 1012
+    },
+    {
+      "filename": "artwork2_met_298_musō-soseki_abiding-nowhere-the-awakened-mind-arises.jpg",
+      "source": "met",
+      "size_kb": 3119
+    },
+    {
+      "filename": "artwork2_met_299_dapeng-zhengkun-taihō-shōkon_bamboo-in-snow.jpg",
+      "source": "met",
+      "size_kb": 1688
+    },
+    {
+      "filename": "artwork2_met_300_torii-kiyomitsu_kabuki-actor-ichimura-uzaemon-ix.jpg",
+      "source": "met",
+      "size_kb": 2103
+    },
+    {
+      "filename": "artwork2_met_301_suzuki-harunobu_palindromic-poems-kaibunka-kyo.jpg",
+      "source": "met",
+      "size_kb": 2855
+    },
+    {
+      "filename": "artwork2_met_302_unknown_tobatsu-bishamonten.jpg",
+      "source": "met",
+      "size_kb": 1817
+    },
+    {
+      "filename": "artwork2_met_303_ichiryūsai-yoshitoyo_recently-imported-big-elephant.jpg",
+      "source": "met",
+      "size_kb": 2849
+    },
+    {
+      "filename": "artwork2_met_304_miyagawa-chōshun-宮川長春_handscroll-of-ten-homoerotic-nanshoku-scenes.jpg",
+      "source": "met",
+      "size_kb": 3853
+    },
+    {
+      "filename": "artwork2_met_305_han-gan_night-shining-white.jpg",
+      "source": "met",
+      "size_kb": 2535
+    },
+    {
+      "filename": "artwork2_met_306_sesson-yūbai-雪村友梅_on-reclusion.jpg",
+      "source": "met",
+      "size_kb": 3158
+    },
+    {
+      "filename": "artwork2_met_307_ike-no-taiga_two-poems-from-the-collection-of-ancient-and-moder.jpg",
+      "source": "met",
+      "size_kb": 5381
+    },
+    {
+      "filename": "artwork2_met_308_kano-naizen_zheng-huangniu-and-yushanzhu.jpg",
+      "source": "met",
+      "size_kb": 1986
+    },
+    {
+      "filename": "artwork2_met_309_edouard-manet_boating.jpg",
+      "source": "met",
+      "size_kb": 5488
+    },
+    {
+      "filename": "artwork2_met_310_ogata-kōrin_white-poppies-on-gold-ground.jpg",
+      "source": "met",
+      "size_kb": 2099
+    },
+    {
+      "filename": "artwork2_met_311_wang-mian_fragrant-snow-at-broken-bridge.jpg",
+      "source": "met",
+      "size_kb": 1871
+    },
+    {
+      "filename": "artwork2_met_312_louis-poterat-manufactory_potpourri-jar.jpg",
+      "source": "met",
+      "size_kb": 1022
+    },
+    {
+      "filename": "artwork2_met_313_unknown_autumn-trees-and-grasses-by-a-stream.jpg",
+      "source": "met",
+      "size_kb": 2419
+    },
+    {
+      "filename": "artwork2_met_314_henri-regnault_salome.jpg",
+      "source": "met",
+      "size_kb": 549
+    },
+    {
+      "filename": "artwork2_met_315_li-gonglin_the-classic-of-filial-piety.jpg",
+      "source": "met",
+      "size_kb": 2612
+    },
+    {
+      "filename": "artwork2_met_316_chantilly_shoulao.jpg",
+      "source": "met",
+      "size_kb": 1529
+    },
+    {
+      "filename": "artwork2_met_317_andrea-zambelli-lhonnesta_torah-crown-keter.jpg",
+      "source": "met",
+      "size_kb": 1818
+    },
+    {
+      "filename": "artwork2_met_318_eugène-delacroix_christ-asleep-during-the-tempest.jpg",
+      "source": "met",
+      "size_kb": 3785
+    },
+    {
+      "filename": "artwork2_met_319_amir-khusrau-dihlavi_alexander-is-lowered-into-the-sea-folio-from-a-kha.jpg",
+      "source": "met",
+      "size_kb": 1861
+    },
+    {
+      "filename": "artwork2_met_320_anonymous-french-19th-century_design-for-a-valance-with-floral-motifs.jpg",
+      "source": "met",
+      "size_kb": 2292
+    },
+    {
+      "filename": "artwork2_met_321_anonymous-french-19th-century_design-for-a-valance-with-bundles-and-garlands-of.jpg",
+      "source": "met",
+      "size_kb": 3631
+    },
+    {
+      "filename": "artwork2_met_322_anonymous-french-19th-century_design-for-a-sofa-seat-cover-with-an-ornamental-fr.jpg",
+      "source": "met",
+      "size_kb": 1958
+    },
+    {
+      "filename": "artwork2_met_323_unknown_panther.jpg",
+      "source": "met",
+      "size_kb": 1743
+    },
+    {
+      "filename": "artwork2_met_324_pierre-auguste-cot_the-storm.jpg",
+      "source": "met",
+      "size_kb": 1715
+    },
+    {
+      "filename": "artwork2_met_325_eugène-delacroix_the-natchez.jpg",
+      "source": "met",
+      "size_kb": 3318
+    },
+    {
+      "filename": "artwork2_met_326_thomas-fearnley_study-of-water-and-plants.jpg",
+      "source": "met",
+      "size_kb": 4429
+    },
+    {
+      "filename": "artwork2_met_327_anonymous_valentine.jpg",
+      "source": "met",
+      "size_kb": 1412
+    },
+    {
+      "filename": "artwork2_met_328_eugène-delacroix_george-sands-garden-at-nohant.jpg",
+      "source": "met",
+      "size_kb": 4914
+    },
+    {
+      "filename": "artwork2_met_329_rosa-bonheur_the-horse-fair.jpg",
+      "source": "met",
+      "size_kb": 2629
+    },
+    {
+      "filename": "artwork2_met_330_gai-qi_famous-women.jpg",
+      "source": "met",
+      "size_kb": 1142
+    },
+    {
+      "filename": "artwork2_met_331_george-frederic-watts_ariadne.jpg",
+      "source": "met",
+      "size_kb": 3903
+    },
+    {
+      "filename": "artwork2_met_332_camille-corot_a-woman-reading.jpg",
+      "source": "met",
+      "size_kb": 3309
+    },
+    {
+      "filename": "artwork2_met_333_paul-cézanne_rocks-at-fontainebleau.jpg",
+      "source": "met",
+      "size_kb": 4489
+    },
+    {
+      "filename": "artwork2_met_334_vincent-van-gogh_shoes.jpg",
+      "source": "met",
+      "size_kb": 4439
+    },
+    {
+      "filename": "artwork2_met_335_vincent-van-gogh_wheat-field-with-cypresses.jpg",
+      "source": "met",
+      "size_kb": 8096
+    },
+    {
+      "filename": "artwork2_met_336_vincent-van-gogh_madame-roulin-and-her-baby.jpg",
+      "source": "met",
+      "size_kb": 3600
+    },
+    {
+      "filename": "artwork2_met_337_vincent-van-gogh_irises.jpg",
+      "source": "met",
+      "size_kb": 5106
+    },
+    {
+      "filename": "artwork2_met_338_vincent-van-gogh_self-portrait-with-a-straw-hat-obverse-the-potato.jpg",
+      "source": "met",
+      "size_kb": 3125
+    },
+    {
+      "filename": "artwork2_met_339_vincent-van-gogh_oleanders.jpg",
+      "source": "met",
+      "size_kb": 3496
+    },
+    {
+      "filename": "artwork2_met_340_vincent-van-gogh_road-in-etten.jpg",
+      "source": "met",
+      "size_kb": 3483
+    },
+    {
+      "filename": "artwork2_met_341_vincent-van-gogh_olive-trees.jpg",
+      "source": "met",
+      "size_kb": 3848
+    },
+    {
+      "filename": "artwork2_met_342_vincent-van-gogh_corridor-in-the-asylum.jpg",
+      "source": "met",
+      "size_kb": 3446
+    },
+    {
+      "filename": "artwork2_met_343_vincent-van-gogh_women-picking-olives.jpg",
+      "source": "met",
+      "size_kb": 7540
+    },
+    {
+      "filename": "artwork2_met_344_vincent-van-gogh_first-steps-after-millet.jpg",
+      "source": "met",
+      "size_kb": 2608
+    },
+    {
+      "filename": "artwork2_met_345_vincent-van-gogh_cypresses.jpg",
+      "source": "met",
+      "size_kb": 2791
+    },
+    {
+      "filename": "artwork2_met_346_vincent-van-gogh_peasant-woman-cooking-by-a-fireplace.jpg",
+      "source": "met",
+      "size_kb": 3674
+    },
+    {
+      "filename": "artwork2_met_347_vincent-van-gogh_the-potato-peeler-reverse-self-portrait-with-a-str.jpg",
+      "source": "met",
+      "size_kb": 1860
+    },
+    {
+      "filename": "artwork2_met_348_vincent-van-gogh_sunflowers.jpg",
+      "source": "met",
+      "size_kb": 5924
+    },
+    {
+      "filename": "artwork2_met_349_vincent-van-gogh_roses.jpg",
+      "source": "met",
+      "size_kb": 5097
+    },
+    {
+      "filename": "artwork2_met_350_vincent-van-gogh_bouquet-of-flowers-in-a-vase.jpg",
+      "source": "met",
+      "size_kb": 3947
+    },
+    {
+      "filename": "artwork2_met_351_rembrandt-rembrandt-van-rijn_aristotle-with-a-bust-of-homer.jpg",
+      "source": "met",
+      "size_kb": 3405
+    },
+    {
+      "filename": "artwork2_met_352_dr-paul-ferdinand-gachet_vincent-van-gogh-on-his-deathbed.jpg",
+      "source": "met",
+      "size_kb": 3639
+    },
+    {
+      "filename": "artwork2_met_353_auguste-renoir_eugène-murer-hyacinthe-eugène-meunier-18411906.jpg",
+      "source": "met",
+      "size_kb": 3034
+    },
+    {
+      "filename": "artwork2_met_354_vincent-van-gogh_nursery-on-schenkweg.jpg",
+      "source": "met",
+      "size_kb": 2231
+    },
+    {
+      "filename": "artwork2_met_355_vincent-van-gogh_burning-weeds.jpg",
+      "source": "met",
+      "size_kb": 4445
+    },
+    {
+      "filename": "artwork2_met_356_vincent-van-gogh_gardener-by-an-apple-tree.jpg",
+      "source": "met",
+      "size_kb": 4810
+    },
+    {
+      "filename": "artwork2_met_357_vincent-van-gogh_street-in-saintes-maries-de-la-mer.jpg",
+      "source": "met",
+      "size_kb": 3096
+    },
+    {
+      "filename": "artwork2_met_358_unknown_head-from-a-statue-of-king-amenhotep-i.jpg",
+      "source": "met",
+      "size_kb": 1781
+    },
+    {
+      "filename": "artwork2_met_359_unknown_stela-of-ptahmose.jpg",
+      "source": "met",
+      "size_kb": 3153
+    },
+    {
+      "filename": "artwork2_met_360_unknown_mold-fragment-with-musicians.jpg",
+      "source": "met",
+      "size_kb": 1507
+    },
+    {
+      "filename": "artwork2_met_361_gerard-david_christ-blessing.jpg",
+      "source": "met",
+      "size_kb": 3061
+    },
+    {
+      "filename": "artwork2_met_362_giacomo-ceruti_a-woman-with-a-dog.jpg",
+      "source": "met",
+      "size_kb": 4372
+    },
+    {
+      "filename": "artwork2_met_363_el-greco-domenikos-theotokopoulos_christ-healing-the-blind.jpg",
+      "source": "met",
+      "size_kb": 5521
+    },
+    {
+      "filename": "artwork2_met_364_giovanni-battista-tiepolo_the-apotheosis-of-the-spanish-monarchy.jpg",
+      "source": "met",
+      "size_kb": 3363
+    },
+    {
+      "filename": "artwork2_met_365_jules-bastien-lepage_joan-of-arc.jpg",
+      "source": "met",
+      "size_kb": 5720
+    },
+    {
+      "filename": "artwork2_met_366_sèvres-manufactory_vase-vase-chinois-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1394
+    },
+    {
+      "filename": "artwork2_met_367_unknown_adam-and-eve-with-charles-i-and-henrietta-maria.jpg",
+      "source": "met",
+      "size_kb": 6568
+    },
+    {
+      "filename": "artwork2_met_368_northern-french-painter_christ-bearing-the-cross.jpg",
+      "source": "met",
+      "size_kb": 3072
+    },
+    {
+      "filename": "artwork2_met_369_unknown_right-leaf-of-a-diptych.jpg",
+      "source": "met",
+      "size_kb": 761
+    },
+    {
+      "filename": "artwork2_met_370_unknown_diptych-with-the-adoration-of-the-magi-and-the-ver.jpg",
+      "source": "met",
+      "size_kb": 2355
+    },
+    {
+      "filename": "artwork2_met_371_unknown_crozier-head-with-double-enthroned-christ.jpg",
+      "source": "met",
+      "size_kb": 1779
+    },
+    {
+      "filename": "artwork2_met_372_peter-paul-rubens_portrait-of-a-man-possibly-an-architect-or-geograp.jpg",
+      "source": "met",
+      "size_kb": 1965
+    },
+    {
+      "filename": "artwork2_met_373_nicolas-poussin_saints-peter-and-john-healing-the-lame-man.jpg",
+      "source": "met",
+      "size_kb": 1778
+    },
+    {
+      "filename": "artwork2_met_374_giovanni-battista-gaulli-il-baciccio_pope-clement-x-15901676.jpg",
+      "source": "met",
+      "size_kb": 4365
+    },
+    {
+      "filename": "artwork2_met_375_gerard-david_virgin-and-child.jpg",
+      "source": "met",
+      "size_kb": 2998
+    },
+    {
+      "filename": "artwork2_met_376_jacopo-tintoretto-jacopo-robusti_portrait-of-a-man.jpg",
+      "source": "met",
+      "size_kb": 3310
+    },
+    {
+      "filename": "artwork2_met_377_currier-ives_the-true-issue-or-thats-whats-the-matter.jpg",
+      "source": "met",
+      "size_kb": 3025
+    },
+    {
+      "filename": "artwork2_met_378_currier-ives_the-true-issue-or-thats-whats-the-matter.jpg",
+      "source": "met",
+      "size_kb": 5002
+    },
+    {
+      "filename": "artwork2_met_379_unknown_vessel-in-form-of-horned-quadruped.jpg",
+      "source": "met",
+      "size_kb": 55
+    },
+    {
+      "filename": "artwork2_met_380_unknown_jug-in-the-form-of-a-recumbent-bull.jpg",
+      "source": "met",
+      "size_kb": 1776
+    },
+    {
+      "filename": "artwork2_met_381_unknown_head-of-a-ruler.jpg",
+      "source": "met",
+      "size_kb": 2776
+    },
+    {
+      "filename": "artwork2_met_382_john-hill_view-near-fishkill-no-17-of-the-hudson-river-portf.jpg",
+      "source": "met",
+      "size_kb": 3983
+    },
+    {
+      "filename": "artwork2_met_383_unknown_martyrdom-of-saint-lawrence.jpg",
+      "source": "met",
+      "size_kb": 2147
+    },
+    {
+      "filename": "artwork2_met_384_georges-jacob_side-chair-chais-à-la-reine-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1447
+    },
+    {
+      "filename": "artwork2_met_385_william-linnell_standing-shelf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1355
+    },
+    {
+      "filename": "artwork2_met_386_georges-jacob_side-chair-chais-à-la-reine-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1444
+    },
+    {
+      "filename": "artwork2_met_387_giovanni-battista-tiepolo_the-apotheosis-of-the-spanish-monarchy.jpg",
+      "source": "met",
+      "size_kb": 2938
+    },
+    {
+      "filename": "artwork2_met_388_goya_ferdinand-vii-17841833-when-prince-of-asturias.jpg",
+      "source": "met",
+      "size_kb": 4055
+    },
+    {
+      "filename": "artwork2_met_389_jean-michelin_the-bakers-cart.jpg",
+      "source": "met",
+      "size_kb": 2708
+    },
+    {
+      "filename": "artwork2_met_390_goya-francisco-de-goya-y-lucientes_a-radiant-female-figure-beset-by-dark-spirits-page.jpg",
+      "source": "met",
+      "size_kb": 1988
+    },
+    {
+      "filename": "artwork2_met_391_jean-françois-cuvilliés-the-elder_commode.jpg",
+      "source": "met",
+      "size_kb": 2155
+    },
+    {
+      "filename": "artwork2_met_392_meissen-manufactory_eagle-owl.jpg",
+      "source": "met",
+      "size_kb": 1175
+    },
+    {
+      "filename": "artwork2_met_393_meissen-manufactory_two-opera-singers.jpg",
+      "source": "met",
+      "size_kb": 1122
+    },
+    {
+      "filename": "artwork2_met_394_hendrick-goudt_tobias-and-the-angel-small-plate.jpg",
+      "source": "met",
+      "size_kb": 1982
+    },
+    {
+      "filename": "artwork2_met_395_lucas-cranach-the-elder-and-workshop_johann-i-14681532-the-constant-elector-of-saxony.jpg",
+      "source": "met",
+      "size_kb": 2720
+    },
+    {
+      "filename": "artwork2_met_396_hugo-van-der-goes_a-benedictine-monk.jpg",
+      "source": "met",
+      "size_kb": 4499
+    },
+    {
+      "filename": "artwork2_met_397_joos-van-cleve_the-holy-family.jpg",
+      "source": "met",
+      "size_kb": 2597
+    },
+    {
+      "filename": "artwork2_met_398_robert-barker_the-new-testament-the-book-of-common-prayer.jpg",
+      "source": "met",
+      "size_kb": 3689
+    },
+    {
+      "filename": "artwork2_met_399_hugo-van-der-goes_the-adoration-of-the-magi.jpg",
+      "source": "met",
+      "size_kb": 3329
+    },
+    {
+      "filename": "artwork2_met_400_herri-met-de-bles_the-temptation-of-saint-anthony.jpg",
+      "source": "met",
+      "size_kb": 2476
+    },
+    {
+      "filename": "artwork2_met_401_pierre-paul-prudhon_charles-maurice-de-talleyrand-périgord-17541838-pr.jpg",
+      "source": "met",
+      "size_kb": 2155
+    },
+    {
+      "filename": "artwork2_met_402_hakuin-ekaku_portrait-of-bodhidharma.jpg",
+      "source": "met",
+      "size_kb": 1483
+    },
+    {
+      "filename": "artwork2_met_403_giovanni-di-francesco-del-cervelliera_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 2780
+    },
+    {
+      "filename": "artwork2_met_404_unknown_christ-carrying-the-cross-called-the-lord-of-the-f.jpg",
+      "source": "met",
+      "size_kb": 5900
+    },
+    {
+      "filename": "artwork2_met_405_william-blake_songs-of-innocence-the-divine-image.jpg",
+      "source": "met",
+      "size_kb": 2039
+    },
+    {
+      "filename": "artwork2_met_406_nanha_page-of-calligraphy-illuminated-with-animals-and-p.jpg",
+      "source": "met",
+      "size_kb": 3510
+    },
+    {
+      "filename": "artwork2_met_407_sultan-muhammad-nur_anthology-of-persian-poetry-in-oblong-format-safin.jpg",
+      "source": "met",
+      "size_kb": 1512
+    },
+    {
+      "filename": "artwork2_met_408_farid-al-din-attar_shaikh-sanan-beneath-the-window-of-the-christian-m.jpg",
+      "source": "met",
+      "size_kb": 4167
+    },
+    {
+      "filename": "artwork2_met_409_abul-qasim-firdausi_isfandiyars-third-course-he-slays-a-dragon-folio-f.jpg",
+      "source": "met",
+      "size_kb": 3272
+    },
+    {
+      "filename": "artwork2_met_410_unknown_youth-and-dervish.jpg",
+      "source": "met",
+      "size_kb": 4383
+    },
+    {
+      "filename": "artwork2_met_411_sir-edward-john-poynter_the-west-wind-lynmouth.jpg",
+      "source": "met",
+      "size_kb": 2538
+    },
+    {
+      "filename": "artwork2_met_412_mir-ali-haravi_unwan-folio-from-the-shah-jahan-album.jpg",
+      "source": "met",
+      "size_kb": 4735
+    },
+    {
+      "filename": "artwork2_met_413_esther-howland_valentine-with-lace-paper-and-faux-pearls.jpg",
+      "source": "met",
+      "size_kb": 4363
+    },
+    {
+      "filename": "artwork2_met_414_david-roentgen_commode-à-vantaux.jpg",
+      "source": "met",
+      "size_kb": 2570
+    },
+    {
+      "filename": "artwork2_met_415_bohemian-painter_virgin-and-child-enthroned.jpg",
+      "source": "met",
+      "size_kb": 6990
+    },
+    {
+      "filename": "artwork2_met_416_unknown_head-from-a-figure-with-a-beaded-headdress.jpg",
+      "source": "met",
+      "size_kb": 1423
+    },
+    {
+      "filename": "artwork2_met_417_jacopo-della-quercia-jacopo-di-pietro-da_design-fragment-for-the-left-side-of-the-fonte-gai.jpg",
+      "source": "met",
+      "size_kb": 4187
+    },
+    {
+      "filename": "artwork2_met_418_jacopo-bellini_madonna-and-child.jpg",
+      "source": "met",
+      "size_kb": 3953
+    },
+    {
+      "filename": "artwork2_met_419_jean-claude-duplessis_two-wall-sconces-bras-de-cheminée.jpg",
+      "source": "met",
+      "size_kb": 1550
+    },
+    {
+      "filename": "artwork2_met_420_unknown_bronze-statuette-of-a-philosopher-on-a-lamp-stand.jpg",
+      "source": "met",
+      "size_kb": 1040
+    },
+    {
+      "filename": "artwork2_met_421_edgar-degas_horse-trotting-the-feet-not-touching-the-ground.jpg",
+      "source": "met",
+      "size_kb": 166
+    },
+    {
+      "filename": "artwork2_met_422_unknown_priest-in-a-leopard-skin-cloak-with-an-inscription.jpg",
+      "source": "met",
+      "size_kb": 1061
+    },
+    {
+      "filename": "artwork2_met_423_unknown_one-of-a-pair-of-vases-with-dragon-handles.jpg",
+      "source": "met",
+      "size_kb": 597
+    },
+    {
+      "filename": "artwork2_met_424_pierre-jean-david-dangers_alphonse-de-gisors-17961866.jpg",
+      "source": "met",
+      "size_kb": 2247
+    },
+    {
+      "filename": "artwork2_met_425_unknown_flying-apsaras-hiten.jpg",
+      "source": "met",
+      "size_kb": 139
+    },
+    {
+      "filename": "artwork2_met_426_unknown_monstrous-male-figure.jpg",
+      "source": "met",
+      "size_kb": 496
+    },
+    {
+      "filename": "artwork2_met_427_massimiliano-soldani_model-for-a-portrait-medal-of-francesco-redi.jpg",
+      "source": "met",
+      "size_kb": 2677
+    },
+    {
+      "filename": "artwork2_met_428_unknown_panel-for-a-skirt-or-petticoat.jpg",
+      "source": "met",
+      "size_kb": 2162
+    },
+    {
+      "filename": "artwork2_met_429_unknown_case-étui-with-an-amorous-inscription.jpg",
+      "source": "met",
+      "size_kb": 979
+    },
+    {
+      "filename": "artwork2_met_430_abul-qasim-firdausi_isfandiyars-fourth-course-he-slays-a-sorceress-fol.jpg",
+      "source": "met",
+      "size_kb": 3195
+    },
+    {
+      "filename": "artwork2_met_431_abul-qasim-firdausi_sam-seals-his-pact-with-sindukht-folio-85v-from-th.jpg",
+      "source": "met",
+      "size_kb": 4399
+    },
+    {
+      "filename": "artwork2_met_432_hans-schlaffer-of-ulm_the-sudarium.jpg",
+      "source": "met",
+      "size_kb": 2457
+    },
+    {
+      "filename": "artwork2_met_433_albrecht-dürer_the-whore-of-babylon-from-the-apocalypse.jpg",
+      "source": "met",
+      "size_kb": 4018
+    },
+    {
+      "filename": "artwork2_met_434_thomas-rowlandson_a-seamans-wifes-reckoning.jpg",
+      "source": "met",
+      "size_kb": 3842
+    },
+    {
+      "filename": "artwork2_met_435_thomas-rowlandson_a-seamans-wifes-reckoning.jpg",
+      "source": "met",
+      "size_kb": 3810
+    },
+    {
+      "filename": "artwork2_met_436_anonymous_valentine.jpg",
+      "source": "met",
+      "size_kb": 3548
+    },
+    {
+      "filename": "artwork2_met_437_honoré-daumier_plate-30-robert-macaire-before-his-judges-from-car.jpg",
+      "source": "met",
+      "size_kb": 3691
+    },
+    {
+      "filename": "artwork2_met_438_arnold-böcklin_island-of-the-dead.jpg",
+      "source": "met",
+      "size_kb": 1602
+    },
+    {
+      "filename": "artwork2_met_439_uto-gyoshi_musk-cat.jpg",
+      "source": "met",
+      "size_kb": 3732
+    },
+    {
+      "filename": "artwork2_met_440_charles-nègre_spartan-soldier.jpg",
+      "source": "met",
+      "size_kb": 2283
+    },
+    {
+      "filename": "artwork2_met_441_giacomo-ceruti_an-old-man-with-a-dog.jpg",
+      "source": "met",
+      "size_kb": 2630
+    },
+    {
+      "filename": "artwork2_met_442_zhao-mengjian_poems-on-painting-plum-blossoms-and-bamboo.jpg",
+      "source": "met",
+      "size_kb": 483
+    },
+    {
+      "filename": "artwork2_met_443_unknown_krishna-steals-the-gopis-clothing-page-from-a-disp.jpg",
+      "source": "met",
+      "size_kb": 1711
+    },
+    {
+      "filename": "artwork2_met_444_jacopo-zucchi_jupiter-fighting-the-giants.jpg",
+      "source": "met",
+      "size_kb": 2375
+    },
+    {
+      "filename": "artwork2_met_445_unidentified-artist_eighteen-songs-of-a-nomad-flute-the-story-of-lady.jpg",
+      "source": "met",
+      "size_kb": 3078
+    },
+    {
+      "filename": "artwork2_met_446_unknown_mandala-of-wakamiya-of-kasuga-shrine-kasuga-wakami.jpg",
+      "source": "met",
+      "size_kb": 3244
+    },
+    {
+      "filename": "artwork2_met_447_william-michael-harnett_still-lifeviolin-and-music.jpg",
+      "source": "met",
+      "size_kb": 2141
+    },
+    {
+      "filename": "artwork2_met_448_pieter-claesz_still-life-with-a-skull-and-a-writing-quill.jpg",
+      "source": "met",
+      "size_kb": 1824
+    },
+    {
+      "filename": "artwork2_met_449_fidelia-bridges_still-life.jpg",
+      "source": "met",
+      "size_kb": 5599
+    },
+    {
+      "filename": "artwork2_met_450_camille-pissarro_still-life-with-apples-and-pitcher.jpg",
+      "source": "met",
+      "size_kb": 5658
+    },
+    {
+      "filename": "artwork2_met_451_paul-gauguin_still-life-with-teapot-and-fruit.jpg",
+      "source": "met",
+      "size_kb": 3461
+    },
+    {
+      "filename": "artwork2_met_452_paul-cézanne_still-life-with-apples-and-a-pot-of-primroses.jpg",
+      "source": "met",
+      "size_kb": 2919
+    },
+    {
+      "filename": "artwork2_met_453_paul-cézanne_still-life-with-apples-and-pears.jpg",
+      "source": "met",
+      "size_kb": 5203
+    },
+    {
+      "filename": "artwork2_met_454_otto-marseus-van-schrieck_still-life-with-poppy-insects-and-reptiles.jpg",
+      "source": "met",
+      "size_kb": 2286
+    },
+    {
+      "filename": "artwork2_met_455_georg-flegel_still-life.jpg",
+      "source": "met",
+      "size_kb": 3978
+    },
+    {
+      "filename": "artwork2_met_456_james-peale_still-life-balsam-apple-and-vegetables.jpg",
+      "source": "met",
+      "size_kb": 3171
+    },
+    {
+      "filename": "artwork2_met_457_paul-cézanne_still-life-with-a-ginger-jar-and-eggplants.jpg",
+      "source": "met",
+      "size_kb": 4996
+    },
+    {
+      "filename": "artwork2_met_458_dirck-van-rijswijck_floral-still-life.jpg",
+      "source": "met",
+      "size_kb": 1839
+    },
+    {
+      "filename": "artwork2_met_459_willem-claesz-heda_still-life-with-oysters-a-silver-tazza-and-glasswa.jpg",
+      "source": "met",
+      "size_kb": 1459
+    },
+    {
+      "filename": "artwork2_met_460_jacques-de-gheyn-ii_vanitas-still-life.jpg",
+      "source": "met",
+      "size_kb": 1703
+    },
+    {
+      "filename": "artwork2_met_461_henri-fantin-latour_still-life-with-flowers-and-fruit.jpg",
+      "source": "met",
+      "size_kb": 3009
+    },
+    {
+      "filename": "artwork2_met_462_philippe-rousseau_still-life-with-ham.jpg",
+      "source": "met",
+      "size_kb": 2692
+    },
+    {
+      "filename": "artwork2_met_463_raphaelle-peale_still-life-with-cake.jpg",
+      "source": "met",
+      "size_kb": 2423
+    },
+    {
+      "filename": "artwork2_met_464_auguste-renoir_still-life-with-peaches.jpg",
+      "source": "met",
+      "size_kb": 3105
+    },
+    {
+      "filename": "artwork2_met_465_alexandre-françois-desportes_still-life-with-silver.jpg",
+      "source": "met",
+      "size_kb": 2244
+    },
+    {
+      "filename": "artwork2_met_466_unknown_snuffbox-with-still-life.jpg",
+      "source": "met",
+      "size_kb": 2402
+    },
+    {
+      "filename": "artwork2_met_467_paul-cézanne_still-life-with-jar-cup-and-apples.jpg",
+      "source": "met",
+      "size_kb": 2372
+    },
+    {
+      "filename": "artwork2_met_468_auguste-renoir_still-life-with-flowers-and-prickly-pears.jpg",
+      "source": "met",
+      "size_kb": 3441
+    },
+    {
+      "filename": "artwork2_met_469_auguste-renoir_still-life-with-peaches-and-grapes.jpg",
+      "source": "met",
+      "size_kb": 5649
+    },
+    {
+      "filename": "artwork2_met_470_panfilo-nuvolone_still-life-of-grapes-and-peaches.jpg",
+      "source": "met",
+      "size_kb": 3152
+    },
+    {
+      "filename": "artwork2_met_471_joris-hoefnagel_still-life-with-flowers-a-snail-and-insects.jpg",
+      "source": "met",
+      "size_kb": 2263
+    },
+    {
+      "filename": "artwork2_met_472_orsola-maddalena-caccia_fruit-and-flowers.jpg",
+      "source": "met",
+      "size_kb": 4764
+    },
+    {
+      "filename": "artwork2_met_473_orsola-maddalena-caccia_flowers-in-a-grotesque-vase.jpg",
+      "source": "met",
+      "size_kb": 5032
+    },
+    {
+      "filename": "artwork2_met_474_john-a-woodside_still-life-peaches-and-grapes.jpg",
+      "source": "met",
+      "size_kb": 2605
+    },
+    {
+      "filename": "artwork2_met_475_bartolomeo-cavarozzi_basket-of-fruit.jpg",
+      "source": "met",
+      "size_kb": 4400
+    },
+    {
+      "filename": "artwork2_met_476_jang-seung-eop-pen-name-owon_still-life-with-bronze-vessels-and-flowering-plant.jpg",
+      "source": "met",
+      "size_kb": 2013
+    },
+    {
+      "filename": "artwork2_met_477_jean-françois-roumier_the-louis-xv-room.jpg",
+      "source": "met",
+      "size_kb": 2042
+    },
+    {
+      "filename": "artwork2_met_478_riza-yi-abbasi_study-of-a-bird.jpg",
+      "source": "met",
+      "size_kb": 2849
+    },
+    {
+      "filename": "artwork2_met_479_unknown_the-deity-vajrabhairava-tantric-form-of-the-bodhis.jpg",
+      "source": "met",
+      "size_kb": 8177
+    },
+    {
+      "filename": "artwork2_met_480_calima-yotoco-artist_headdress-ornament.jpg",
+      "source": "met",
+      "size_kb": 2382
+    },
+    {
+      "filename": "artwork2_met_481_botticelli-alessandro-di-mariano-filipep_madonna-adoring-the-child.jpg",
+      "source": "met",
+      "size_kb": 2056
+    },
+    {
+      "filename": "artwork2_met_482_ike-no-taiga_paintings-by-taigadō-with-colophons.jpg",
+      "source": "met",
+      "size_kb": 1169
+    },
+    {
+      "filename": "artwork2_met_483_ike-no-taiga_pine-tree-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 3904
+    },
+    {
+      "filename": "artwork2_met_484_ike-no-taiga_evening-glow-in-a-mountain-village-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 2697
+    },
+    {
+      "filename": "artwork2_met_485_ike-no-taiga_fishing-boat-on-reed-covered-bank-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 2676
+    },
+    {
+      "filename": "artwork2_met_486_ike-no-taiga_mountain-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 1876
+    },
+    {
+      "filename": "artwork2_met_487_cui-he_portrait-of-li-xiangjun.jpg",
+      "source": "met",
+      "size_kb": 1585
+    },
+    {
+      "filename": "artwork2_met_488_unidentified-artist_reading-a-sutra-by-moonlight.jpg",
+      "source": "met",
+      "size_kb": 3411
+    },
+    {
+      "filename": "artwork2_met_489_wang-yuanqi_wangchuan-villa.jpg",
+      "source": "met",
+      "size_kb": 2874
+    },
+    {
+      "filename": "artwork2_met_490_jacob-van-ruisdael_grainfields.jpg",
+      "source": "met",
+      "size_kb": 3025
+    },
+    {
+      "filename": "artwork2_met_491_yelan-xinggui_chinese-poem-on-seeking-a-reclusive-life-in-the-mo.jpg",
+      "source": "met",
+      "size_kb": 1733
+    },
+    {
+      "filename": "artwork2_met_492_māori-artist_kapeu-ear-ornament.jpg",
+      "source": "met",
+      "size_kb": 1578
+    },
+    {
+      "filename": "artwork2_met_493_mi-youren_cloudy-mountains.jpg",
+      "source": "met",
+      "size_kb": 1092
+    },
+    {
+      "filename": "artwork2_met_494_urakami-uragami-gyokudō_lingering-rain-over-half-the-village.jpg",
+      "source": "met",
+      "size_kb": 6650
+    },
+    {
+      "filename": "artwork2_met_495_tobias-verhaecht_wooded-landscape-with-stag-hunt.jpg",
+      "source": "met",
+      "size_kb": 2259
+    },
+    {
+      "filename": "artwork2_met_496_unknown_statuette-of-a-hippo-goddess-probably-taweret.jpg",
+      "source": "met",
+      "size_kb": 784
+    },
+    {
+      "filename": "artwork2_met_497_unknown_bowl.jpg",
+      "source": "met",
+      "size_kb": 1390
+    },
+    {
+      "filename": "artwork2_met_498_unknown_book-of-the-dead-of-the-priest-of-horus-imhotep-im.jpg",
+      "source": "met",
+      "size_kb": 1714
+    },
+    {
+      "filename": "artwork2_met_499_unknown_the-fieschi-morgan-staurotheke.jpg",
+      "source": "met",
+      "size_kb": 1986
+    },
+    {
+      "filename": "artwork2_met_500_josé-guadalupe-posada_in-proof-of-true-love-a-watercarrier-skeleton-argu.jpg",
+      "source": "met",
+      "size_kb": 3901
+    },
+    {
+      "filename": "artwork2_met_501_jean-antoine-houdon_sabine-houdon-17871836.jpg",
+      "source": "met",
+      "size_kb": 820
+    },
+    {
+      "filename": "artwork2_met_502_unknown_stela-of-the-steward-mentuwoser.jpg",
+      "source": "met",
+      "size_kb": 3021
+    },
+    {
+      "filename": "artwork2_met_503_unknown_tomb-chapel-of-raemkai.jpg",
+      "source": "met",
+      "size_kb": 744
+    },
+    {
+      "filename": "artwork2_met_504_joachim-patinir_the-penitence-of-saint-jerome.jpg",
+      "source": "met",
+      "size_kb": 2708
+    },
+    {
+      "filename": "artwork2_met_505_jean-baptiste-stouf_the-composer-andré-ernest-modeste-grétry-17411813.jpg",
+      "source": "met",
+      "size_kb": 1195
+    },
+    {
+      "filename": "artwork2_met_506_ferdinand-berthoud_longcase-astronomical-regulator.jpg",
+      "source": "met",
+      "size_kb": 2076
+    },
+    {
+      "filename": "artwork2_met_507_guido-reni_charity.jpg",
+      "source": "met",
+      "size_kb": 1626
+    },
+    {
+      "filename": "artwork2_met_508_unknown_yuny-and-his-wife-renenutet.jpg",
+      "source": "met",
+      "size_kb": 1601
+    },
+    {
+      "filename": "artwork2_met_509_unknown_stela-with-taweret-and-mut-of-isheru.jpg",
+      "source": "met",
+      "size_kb": 4221
+    },
+    {
+      "filename": "artwork2_met_510_elisabeth-louise-vigée-le-brun_marie-antoinette-in-a-park.jpg",
+      "source": "met",
+      "size_kb": 4040
+    },
+    {
+      "filename": "artwork2_met_511_northern-highlands-artist_processional-cross.jpg",
+      "source": "met",
+      "size_kb": 243
+    },
+    {
+      "filename": "artwork2_met_512_jacometto-jacometto-veneziano_portrait-of-a-woman-possibly-a-nun-of-san-secondo.jpg",
+      "source": "met",
+      "size_kb": 2293
+    },
+    {
+      "filename": "artwork2_met_513_jacometto-jacometto-veneziano_portrait-of-alvise-contarini-verso-a-tethered-roeb.jpg",
+      "source": "met",
+      "size_kb": 2328
+    },
+    {
+      "filename": "artwork2_met_514_jules-dupré_cows-crossing-a-ford.jpg",
+      "source": "met",
+      "size_kb": 2199
+    },
+    {
+      "filename": "artwork2_met_515_paul-gauguin_ia-orana-maria-hail-mary.jpg",
+      "source": "met",
+      "size_kb": 2861
+    },
+    {
+      "filename": "artwork2_met_516_johann-michael-bauer_settee-one-of-a-pair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 2456
+    },
+    {
+      "filename": "artwork2_met_517_léon-bonnat_an-egyptian-peasant-woman-and-her-child.jpg",
+      "source": "met",
+      "size_kb": 1185
+    },
+    {
+      "filename": "artwork2_met_518_fra-carnevale-bartolomeo-di-giovanni-cor_the-birth-of-the-virgin.jpg",
+      "source": "met",
+      "size_kb": 2291
+    },
+    {
+      "filename": "artwork2_met_519_villeroy_dwarf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 867
+    },
+    {
+      "filename": "artwork2_met_520_villeroy_dwarf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 867
+    },
+    {
+      "filename": "artwork2_met_521_gerard-david_virgin-and-child-with-four-angels.jpg",
+      "source": "met",
+      "size_kb": 3498
+    },
+    {
+      "filename": "artwork2_met_522_jan-jansen-bockeltz_clock-watch-with-astronomical-dial-and-sundial.jpg",
+      "source": "met",
+      "size_kb": 1219
+    },
+    {
+      "filename": "artwork2_met_523_agostino-dantonio-di-duccio_saint-bridget-of-sweden-receiving-the-rule-of-her.jpg",
+      "source": "met",
+      "size_kb": 2022
+    },
+    {
+      "filename": "artwork2_met_524_habiballah-of-sava_the-concourse-of-the-birds-folio-11r-from-a-mantiq.jpg",
+      "source": "met",
+      "size_kb": 4410
+    },
+    {
+      "filename": "artwork2_met_525_unknown_tabernacle-polyptych-with-the-madonna-and-child-an.jpg",
+      "source": "met",
+      "size_kb": 1726
+    },
+    {
+      "filename": "artwork2_met_526_fra-filippo-lippi_portrait-of-a-woman-with-a-man-at-a-casement.jpg",
+      "source": "met",
+      "size_kb": 2600
+    },
+    {
+      "filename": "artwork2_met_527_federico-barocci_saint-francis.jpg",
+      "source": "met",
+      "size_kb": 1563
+    },
+    {
+      "filename": "artwork2_met_528_andrea-del-sarto-andrea-dagnolo_the-holy-family-with-the-young-saint-john-the-bapt.jpg",
+      "source": "met",
+      "size_kb": 1987
+    },
+    {
+      "filename": "artwork2_met_529_joos-van-wassenhove_the-adoration-of-the-magi.jpg",
+      "source": "met",
+      "size_kb": 4272
+    },
+    {
+      "filename": "artwork2_met_530_antico-pier-jacopo-alari-bonacolsi_emperor-antoninus-pius.jpg",
+      "source": "met",
+      "size_kb": 1189
+    },
+    {
+      "filename": "artwork2_met_531_liberale-da-verona_scene-from-a-novella.jpg",
+      "source": "met",
+      "size_kb": 3657
+    },
+    {
+      "filename": "artwork2_met_532_medici-porcelain-manufactory_dish-depicting-the-death-of-saul.jpg",
+      "source": "met",
+      "size_kb": 1386
+    },
+    {
+      "filename": "artwork2_met_533_petrus-christus_head-of-christ-ecce-homo.jpg",
+      "source": "met",
+      "size_kb": 2176
+    },
+    {
+      "filename": "artwork2_met_534_hans-holbein-the-younger_hermann-von-wedigh-iii-died-1560.jpg",
+      "source": "met",
+      "size_kb": 1407
+    },
+    {
+      "filename": "artwork2_met_535_bartolomé-estebán-murillo_don-andrés-de-andrade-y-la-cal.jpg",
+      "source": "met",
+      "size_kb": 2278
+    },
+    {
+      "filename": "artwork2_met_536_paris-bordon_portrait-of-a-man-in-armor-with-two-pages.jpg",
+      "source": "met",
+      "size_kb": 3551
+    },
+    {
+      "filename": "artwork2_met_537_master-of-the-orcagnesque-misericordia_head-of-christ.jpg",
+      "source": "met",
+      "size_kb": 6794
+    },
+    {
+      "filename": "artwork2_met_538_théodore-rousseau_the-forest-in-winter-at-sunset.jpg",
+      "source": "met",
+      "size_kb": 3115
+    },
+    {
+      "filename": "artwork2_met_539_netherlandish-or-french_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 3884
+    },
+    {
+      "filename": "artwork2_met_540_sebastiano-ricci_the-baptism-of-christ.jpg",
+      "source": "met",
+      "size_kb": 2856
+    },
+    {
+      "filename": "artwork2_met_541_unknown_enameled-and-gilded-bottle.jpg",
+      "source": "met",
+      "size_kb": 1125
+    },
+    {
+      "filename": "artwork2_met_542_ambrosius-benson_the-lamentation.jpg",
+      "source": "met",
+      "size_kb": 2563
+    },
+    {
+      "filename": "artwork2_met_543_hans-memling_salvator-mundi.jpg",
+      "source": "met",
+      "size_kb": 6480
+    },
+    {
+      "filename": "artwork2_met_544_raffaellino-del-garbo-also-known-as-raff_holy-family-with-an-angel.jpg",
+      "source": "met",
+      "size_kb": 4399
+    },
+    {
+      "filename": "artwork2_met_545_fra-filippo-lippi_saint-lawrence-enthroned-with-saints-and-donors.jpg",
+      "source": "met",
+      "size_kb": 6268
+    },
+    {
+      "filename": "artwork2_met_546_gerard-david_the-nativity-with-donors-and-saints-jerome-and-leo.jpg",
+      "source": "met",
+      "size_kb": 2944
+    },
+    {
+      "filename": "artwork2_met_547_unknown_our-lady-of-valvanera.jpg",
+      "source": "met",
+      "size_kb": 3457
+    },
+    {
+      "filename": "artwork2_met_548_domenico-ghirlandaio-domenico-bigordi_saint-christopher-and-the-infant-christ.jpg",
+      "source": "met",
+      "size_kb": 73
+    },
+    {
+      "filename": "artwork2_met_549_thomas-doughty_spring-landscape.jpg",
+      "source": "met",
+      "size_kb": 1180
+    },
+    {
+      "filename": "artwork2_met_550_utagawa-hiroshige_six-jewel-rivers-from-various-provinces.jpg",
+      "source": "met",
+      "size_kb": 4834
+    },
+    {
+      "filename": "artwork2_met_551_shi-zhong_winter-landscape-with-fisherman.jpg",
+      "source": "met",
+      "size_kb": 1466
+    },
+    {
+      "filename": "artwork2_met_552_unknown_ten-verses-on-oxherding.jpg",
+      "source": "met",
+      "size_kb": 126
+    },
+    {
+      "filename": "artwork2_met_553_théodore-rousseau_a-river-in-a-meadow.jpg",
+      "source": "met",
+      "size_kb": 4060
+    },
+    {
+      "filename": "artwork2_met_554_camille-pissarro_jalais-hill-pontoise.jpg",
+      "source": "met",
+      "size_kb": 3082
+    },
+    {
+      "filename": "artwork2_met_555_joseph-bidauld_lake-fucino-and-the-abruzzi-mountains.jpg",
+      "source": "met",
+      "size_kb": 1449
+    },
+    {
+      "filename": "artwork2_met_556_chen-hongshou_landscapes-figures-and-flowers.jpg",
+      "source": "met",
+      "size_kb": 1598
+    },
+    {
+      "filename": "artwork2_met_557_hans-memling_young-woman-with-a-pink.jpg",
+      "source": "met",
+      "size_kb": 2507
+    },
+    {
+      "filename": "artwork2_met_558_salvator-rosa_self-portrait.jpg",
+      "source": "met",
+      "size_kb": 2742
+    },
+    {
+      "filename": "artwork2_met_559_francesco-guardi_venice-from-the-bacino-di-san-marco.jpg",
+      "source": "met",
+      "size_kb": 4201
+    },
+    {
+      "filename": "artwork2_met_560_girolamo-dai-libri_madonna-and-child-with-saints.jpg",
+      "source": "met",
+      "size_kb": 1758
+    },
+    {
+      "filename": "artwork2_met_561_abul-qasim-firdausi_bizhan-slaughters-the-wild-boars-of-irman-folio-fr.jpg",
+      "source": "met",
+      "size_kb": 2949
+    },
+    {
+      "filename": "artwork2_met_562_nicolas-froment_the-pérussis-altarpiece.jpg",
+      "source": "met",
+      "size_kb": 2897
+    },
+    {
+      "filename": "artwork2_met_563_gerard-david_the-crucifixion.jpg",
+      "source": "met",
+      "size_kb": 4940
+    },
+    {
+      "filename": "artwork2_met_564_unknown_damascus-room.jpg",
+      "source": "met",
+      "size_kb": 3209
+    },
+    {
+      "filename": "artwork2_met_565_johann-michael-bauer_settee-one-of-a-pair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 759
+    },
+    {
+      "filename": "artwork2_met_566_jacques-louis-david_the-death-of-socrates.jpg",
+      "source": "met",
+      "size_kb": 1751
+    },
+    {
+      "filename": "artwork2_met_567_saint-cloud-factory_glass-cooler-seau-à-verre.jpg",
+      "source": "met",
+      "size_kb": 804
+    },
+    {
+      "filename": "artwork2_met_568_unknown_upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 455
+    },
+    {
+      "filename": "artwork2_met_569_unknown_upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 455
+    },
+    {
+      "filename": "artwork2_met_570_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 442
+    },
+    {
+      "filename": "artwork2_met_571_nicolas-quinibert-foliot_settee-canapé-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 1228
+    },
+    {
+      "filename": "artwork2_met_572_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 465
+    },
+    {
+      "filename": "artwork2_met_573_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 474
+    },
+    {
+      "filename": "artwork2_met_574_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 530
+    },
+    {
+      "filename": "artwork2_met_575_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 422
+    },
+    {
+      "filename": "artwork2_met_576_nicolas-quinibert-foliot_armchair-part-of-a-set.jpg",
+      "source": "met",
+      "size_kb": 499
+    },
+    {
+      "filename": "artwork2_met_577_beauvais_four-upholstery-panels-for-a-settee.jpg",
+      "source": "met",
+      "size_kb": 2806
+    },
+    {
+      "filename": "artwork2_met_578_charles-le-brun_the-jabach-family.jpg",
+      "source": "met",
+      "size_kb": 1820
+    },
+    {
+      "filename": "artwork2_met_579_hendrick-ter-brugghen_the-crucifixion-with-the-virgin-and-saint-john.jpg",
+      "source": "met",
+      "size_kb": 1572
+    },
+    {
+      "filename": "artwork2_met_580_johannes-vermeer_a-maid-asleep.jpg",
+      "source": "met",
+      "size_kb": 2784
+    },
+    {
+      "filename": "artwork2_met_581_vincent-van-gogh_larlésienne-madame-joseph-michel-ginoux-marie-juli.jpg",
+      "source": "met",
+      "size_kb": 3224
+    },
+    {
+      "filename": "artwork2_met_582_vincent-van-gogh_la-berceuse-woman-rocking-a-cradle-augustine-alix.jpg",
+      "source": "met",
+      "size_kb": 7032
+    },
+    {
+      "filename": "artwork2_met_583_antoine-le-nain_a-peasant-family.jpg",
+      "source": "met",
+      "size_kb": 2955
+    },
+    {
+      "filename": "artwork2_met_584_adriaen-brouwer_the-smokers.jpg",
+      "source": "met",
+      "size_kb": 3731
+    },
+    {
+      "filename": "artwork2_met_585_govert-flinck_a-young-woman-as-a-shepherdess.jpg",
+      "source": "met",
+      "size_kb": 2469
+    },
+    {
+      "filename": "artwork2_met_586_salomon-van-ruysdael_market-by-the-seashore.jpg",
+      "source": "met",
+      "size_kb": 2111
+    },
+    {
+      "filename": "artwork2_met_587_cornelis-engebrechtsz_the-crucifixion-with-donors-and-saints-peter-and-m.jpg",
+      "source": "met",
+      "size_kb": 3095
+    },
+    {
+      "filename": "artwork2_met_588_north-netherlandish-bruges-painter_christ-bearing-the-cross.jpg",
+      "source": "met",
+      "size_kb": 5107
+    },
+    {
+      "filename": "artwork2_met_589_unknown_pierced-bowl-signed-by-hasan-al-qashani.jpg",
+      "source": "met",
+      "size_kb": 981
+    },
+    {
+      "filename": "artwork2_met_590_giovanni-battista-tiepolo_the-investiture-of-bishop-harold-as-duke-of-franco.jpg",
+      "source": "met",
+      "size_kb": 1966
+    },
+    {
+      "filename": "artwork2_met_591_netherlandish-brussels-painter_the-fifteen-mysteries-and-the-virgin-of-the-rosary.jpg",
+      "source": "met",
+      "size_kb": 3366
+    },
+    {
+      "filename": "artwork2_met_592_caravaggio-michelangelo-merisi_the-musicians.jpg",
+      "source": "met",
+      "size_kb": 4573
+    },
+    {
+      "filename": "artwork2_met_593_georges-de-la-tour_the-fortune-teller.jpg",
+      "source": "met",
+      "size_kb": 4230
+    },
+    {
+      "filename": "artwork2_met_594_lucas-cranach-the-elder-and-workshop_friedrich-iii-14631525-the-wise-elector-of-saxony.jpg",
+      "source": "met",
+      "size_kb": 2531
+    },
+    {
+      "filename": "artwork2_met_595_velázquez-diego-rodríguez-de-silva-y-vel_philip-iv-16051665-king-of-spain.jpg",
+      "source": "met",
+      "size_kb": 921
+    },
+    {
+      "filename": "artwork2_met_596_carlo-dolci_saint-philip-neri-15151595.jpg",
+      "source": "met",
+      "size_kb": 2545
+    },
+    {
+      "filename": "artwork2_met_597_giovanni-battista-gaulli-il-baciccio_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 2081
+    },
+    {
+      "filename": "artwork2_met_598_francesco-fanelli_mercury-and-cupid.jpg",
+      "source": "met",
+      "size_kb": 1090
+    },
+    {
+      "filename": "artwork2_met_599_laurent-de-la-hyre_allegory-of-music.jpg",
+      "source": "met",
+      "size_kb": 2172
+    },
+    {
+      "filename": "artwork2_met_600_massimiliano-soldani_the-sacrifice-of-jephthahs-daughter.jpg",
+      "source": "met",
+      "size_kb": 1329
+    },
+    {
+      "filename": "artwork2_met_601_fulvio-signorini_saint-bernardino-of-siena.jpg",
+      "source": "met",
+      "size_kb": 1672
+    },
+    {
+      "filename": "artwork2_met_602_fulvio-signorini_saint-catherine-of-siena.jpg",
+      "source": "met",
+      "size_kb": 1467
+    },
+    {
+      "filename": "artwork2_met_603_juan-bautista-martínez-del-mazo_don-gaspar-de-guzmán-15871645-count-duke-of-olivar.jpg",
+      "source": "met",
+      "size_kb": 5025
+    },
+    {
+      "filename": "artwork2_met_604_domenico-guidobono_an-allegory.jpg",
+      "source": "met",
+      "size_kb": 84
+    },
+    {
+      "filename": "artwork2_met_605_giuseppe-recco_a-cat-stealing-fish.jpg",
+      "source": "met",
+      "size_kb": 3416
+    },
+    {
+      "filename": "artwork2_met_606_giuseppe-de-levi_bowl-with-cover-perfume-burner.jpg",
+      "source": "met",
+      "size_kb": 2216
+    },
+    {
+      "filename": "artwork2_met_607_unknown_seated-male-figure.jpg",
+      "source": "met",
+      "size_kb": 1012
+    },
+    {
+      "filename": "artwork2_met_608_musō-soseki_abiding-nowhere-the-awakened-mind-arises.jpg",
+      "source": "met",
+      "size_kb": 3119
+    },
+    {
+      "filename": "artwork2_met_609_dapeng-zhengkun-taihō-shōkon_bamboo-in-snow.jpg",
+      "source": "met",
+      "size_kb": 1688
+    },
+    {
+      "filename": "artwork2_met_610_torii-kiyomitsu_kabuki-actor-ichimura-uzaemon-ix.jpg",
+      "source": "met",
+      "size_kb": 2103
+    },
+    {
+      "filename": "artwork2_met_611_suzuki-harunobu_palindromic-poems-kaibunka-kyo.jpg",
+      "source": "met",
+      "size_kb": 2855
+    },
+    {
+      "filename": "artwork2_met_612_unknown_tobatsu-bishamonten.jpg",
+      "source": "met",
+      "size_kb": 1817
+    },
+    {
+      "filename": "artwork2_met_613_ichiryūsai-yoshitoyo_recently-imported-big-elephant.jpg",
+      "source": "met",
+      "size_kb": 2849
+    },
+    {
+      "filename": "artwork2_met_614_miyagawa-chōshun-宮川長春_handscroll-of-ten-homoerotic-nanshoku-scenes.jpg",
+      "source": "met",
+      "size_kb": 3853
+    },
+    {
+      "filename": "artwork2_met_615_han-gan_night-shining-white.jpg",
+      "source": "met",
+      "size_kb": 2535
+    },
+    {
+      "filename": "artwork2_met_616_sesson-yūbai-雪村友梅_on-reclusion.jpg",
+      "source": "met",
+      "size_kb": 3158
+    },
+    {
+      "filename": "artwork2_met_617_ike-no-taiga_two-poems-from-the-collection-of-ancient-and-moder.jpg",
+      "source": "met",
+      "size_kb": 5381
+    },
+    {
+      "filename": "artwork2_met_618_kano-naizen_zheng-huangniu-and-yushanzhu.jpg",
+      "source": "met",
+      "size_kb": 1986
+    },
+    {
+      "filename": "artwork2_met_619_edouard-manet_boating.jpg",
+      "source": "met",
+      "size_kb": 5488
+    },
+    {
+      "filename": "artwork2_met_620_ogata-kōrin_white-poppies-on-gold-ground.jpg",
+      "source": "met",
+      "size_kb": 2099
+    },
+    {
+      "filename": "artwork2_met_621_wang-mian_fragrant-snow-at-broken-bridge.jpg",
+      "source": "met",
+      "size_kb": 1871
+    },
+    {
+      "filename": "artwork2_met_622_louis-poterat-manufactory_potpourri-jar.jpg",
+      "source": "met",
+      "size_kb": 1022
+    },
+    {
+      "filename": "artwork2_met_623_unknown_autumn-trees-and-grasses-by-a-stream.jpg",
+      "source": "met",
+      "size_kb": 2419
+    },
+    {
+      "filename": "artwork2_met_624_henri-regnault_salome.jpg",
+      "source": "met",
+      "size_kb": 549
+    },
+    {
+      "filename": "artwork2_met_625_li-gonglin_the-classic-of-filial-piety.jpg",
+      "source": "met",
+      "size_kb": 2612
+    },
+    {
+      "filename": "artwork2_met_626_chantilly_shoulao.jpg",
+      "source": "met",
+      "size_kb": 1529
+    },
+    {
+      "filename": "artwork2_met_627_andrea-zambelli-lhonnesta_torah-crown-keter.jpg",
+      "source": "met",
+      "size_kb": 1818
+    },
+    {
+      "filename": "artwork2_met_628_eugène-delacroix_christ-asleep-during-the-tempest.jpg",
+      "source": "met",
+      "size_kb": 3785
+    },
+    {
+      "filename": "artwork2_met_629_amir-khusrau-dihlavi_alexander-is-lowered-into-the-sea-folio-from-a-kha.jpg",
+      "source": "met",
+      "size_kb": 1861
+    },
+    {
+      "filename": "artwork2_met_630_anonymous-french-19th-century_design-for-a-valance-with-floral-motifs.jpg",
+      "source": "met",
+      "size_kb": 2292
+    },
+    {
+      "filename": "artwork2_met_631_anonymous-french-19th-century_design-for-a-valance-with-bundles-and-garlands-of.jpg",
+      "source": "met",
+      "size_kb": 3631
+    },
+    {
+      "filename": "artwork2_met_632_anonymous-french-19th-century_design-for-a-sofa-seat-cover-with-an-ornamental-fr.jpg",
+      "source": "met",
+      "size_kb": 1958
+    },
+    {
+      "filename": "artwork2_met_633_unknown_panther.jpg",
+      "source": "met",
+      "size_kb": 1743
+    },
+    {
+      "filename": "artwork2_met_634_pierre-auguste-cot_the-storm.jpg",
+      "source": "met",
+      "size_kb": 1715
+    },
+    {
+      "filename": "artwork2_met_635_eugène-delacroix_the-natchez.jpg",
+      "source": "met",
+      "size_kb": 3318
+    },
+    {
+      "filename": "artwork2_met_636_thomas-fearnley_study-of-water-and-plants.jpg",
+      "source": "met",
+      "size_kb": 4429
+    },
+    {
+      "filename": "artwork2_met_637_anonymous_valentine.jpg",
+      "source": "met",
+      "size_kb": 1412
+    },
+    {
+      "filename": "artwork2_met_638_eugène-delacroix_george-sands-garden-at-nohant.jpg",
+      "source": "met",
+      "size_kb": 4914
+    },
+    {
+      "filename": "artwork2_met_639_rosa-bonheur_the-horse-fair.jpg",
+      "source": "met",
+      "size_kb": 2629
+    },
+    {
+      "filename": "artwork2_met_640_gai-qi_famous-women.jpg",
+      "source": "met",
+      "size_kb": 1142
+    },
+    {
+      "filename": "artwork2_met_641_george-frederic-watts_ariadne.jpg",
+      "source": "met",
+      "size_kb": 3903
+    },
+    {
+      "filename": "artwork2_met_642_camille-corot_a-woman-reading.jpg",
+      "source": "met",
+      "size_kb": 3309
+    },
+    {
+      "filename": "artwork2_met_643_paul-cézanne_rocks-at-fontainebleau.jpg",
+      "source": "met",
+      "size_kb": 4489
+    },
+    {
+      "filename": "artwork2_met_644_vincent-van-gogh_shoes.jpg",
+      "source": "met",
+      "size_kb": 4439
+    },
+    {
+      "filename": "artwork2_met_645_vincent-van-gogh_wheat-field-with-cypresses.jpg",
+      "source": "met",
+      "size_kb": 8096
+    },
+    {
+      "filename": "artwork2_met_646_vincent-van-gogh_madame-roulin-and-her-baby.jpg",
+      "source": "met",
+      "size_kb": 3600
+    },
+    {
+      "filename": "artwork2_met_647_vincent-van-gogh_irises.jpg",
+      "source": "met",
+      "size_kb": 5106
+    },
+    {
+      "filename": "artwork2_met_648_vincent-van-gogh_self-portrait-with-a-straw-hat-obverse-the-potato.jpg",
+      "source": "met",
+      "size_kb": 3125
+    },
+    {
+      "filename": "artwork2_met_649_vincent-van-gogh_oleanders.jpg",
+      "source": "met",
+      "size_kb": 3496
+    },
+    {
+      "filename": "artwork2_met_650_vincent-van-gogh_road-in-etten.jpg",
+      "source": "met",
+      "size_kb": 3483
+    },
+    {
+      "filename": "artwork2_met_651_vincent-van-gogh_olive-trees.jpg",
+      "source": "met",
+      "size_kb": 3848
+    },
+    {
+      "filename": "artwork2_met_652_vincent-van-gogh_corridor-in-the-asylum.jpg",
+      "source": "met",
+      "size_kb": 3446
+    },
+    {
+      "filename": "artwork2_met_653_vincent-van-gogh_women-picking-olives.jpg",
+      "source": "met",
+      "size_kb": 7540
+    },
+    {
+      "filename": "artwork2_met_654_vincent-van-gogh_first-steps-after-millet.jpg",
+      "source": "met",
+      "size_kb": 2608
+    },
+    {
+      "filename": "artwork2_met_655_vincent-van-gogh_cypresses.jpg",
+      "source": "met",
+      "size_kb": 2791
+    },
+    {
+      "filename": "artwork2_met_656_vincent-van-gogh_peasant-woman-cooking-by-a-fireplace.jpg",
+      "source": "met",
+      "size_kb": 3674
+    },
+    {
+      "filename": "artwork2_met_657_vincent-van-gogh_the-potato-peeler-reverse-self-portrait-with-a-str.jpg",
+      "source": "met",
+      "size_kb": 1860
+    },
+    {
+      "filename": "artwork2_met_658_vincent-van-gogh_sunflowers.jpg",
+      "source": "met",
+      "size_kb": 5924
+    },
+    {
+      "filename": "artwork2_met_659_vincent-van-gogh_roses.jpg",
+      "source": "met",
+      "size_kb": 5097
+    },
+    {
+      "filename": "artwork2_met_660_vincent-van-gogh_bouquet-of-flowers-in-a-vase.jpg",
+      "source": "met",
+      "size_kb": 3947
+    },
+    {
+      "filename": "artwork2_met_661_rembrandt-rembrandt-van-rijn_aristotle-with-a-bust-of-homer.jpg",
+      "source": "met",
+      "size_kb": 3405
+    },
+    {
+      "filename": "artwork2_met_662_dr-paul-ferdinand-gachet_vincent-van-gogh-on-his-deathbed.jpg",
+      "source": "met",
+      "size_kb": 3639
+    },
+    {
+      "filename": "artwork2_met_663_auguste-renoir_eugène-murer-hyacinthe-eugène-meunier-18411906.jpg",
+      "source": "met",
+      "size_kb": 3034
+    },
+    {
+      "filename": "artwork2_met_664_vincent-van-gogh_nursery-on-schenkweg.jpg",
+      "source": "met",
+      "size_kb": 2231
+    },
+    {
+      "filename": "artwork2_met_665_vincent-van-gogh_burning-weeds.jpg",
+      "source": "met",
+      "size_kb": 4445
+    },
+    {
+      "filename": "artwork2_met_666_vincent-van-gogh_gardener-by-an-apple-tree.jpg",
+      "source": "met",
+      "size_kb": 4810
+    },
+    {
+      "filename": "artwork2_met_667_vincent-van-gogh_street-in-saintes-maries-de-la-mer.jpg",
+      "source": "met",
+      "size_kb": 3096
+    },
+    {
+      "filename": "artwork2_met_668_unknown_head-from-a-statue-of-king-amenhotep-i.jpg",
+      "source": "met",
+      "size_kb": 1781
+    },
+    {
+      "filename": "artwork2_met_669_unknown_stela-of-ptahmose.jpg",
+      "source": "met",
+      "size_kb": 3153
+    },
+    {
+      "filename": "artwork2_met_670_unknown_mold-fragment-with-musicians.jpg",
+      "source": "met",
+      "size_kb": 1507
+    },
+    {
+      "filename": "artwork2_met_671_gerard-david_christ-blessing.jpg",
+      "source": "met",
+      "size_kb": 3061
+    },
+    {
+      "filename": "artwork2_met_672_giacomo-ceruti_a-woman-with-a-dog.jpg",
+      "source": "met",
+      "size_kb": 4372
+    },
+    {
+      "filename": "artwork2_met_673_el-greco-domenikos-theotokopoulos_christ-healing-the-blind.jpg",
+      "source": "met",
+      "size_kb": 5521
+    },
+    {
+      "filename": "artwork2_met_674_giovanni-battista-tiepolo_the-apotheosis-of-the-spanish-monarchy.jpg",
+      "source": "met",
+      "size_kb": 3363
+    },
+    {
+      "filename": "artwork2_met_675_jules-bastien-lepage_joan-of-arc.jpg",
+      "source": "met",
+      "size_kb": 5720
+    },
+    {
+      "filename": "artwork2_met_676_sèvres-manufactory_vase-vase-chinois-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1323
+    },
+    {
+      "filename": "artwork2_met_677_unknown_adam-and-eve-with-charles-i-and-henrietta-maria.jpg",
+      "source": "met",
+      "size_kb": 6568
+    },
+    {
+      "filename": "artwork2_met_678_northern-french-painter_christ-bearing-the-cross.jpg",
+      "source": "met",
+      "size_kb": 3072
+    },
+    {
+      "filename": "artwork2_met_679_unknown_right-leaf-of-a-diptych.jpg",
+      "source": "met",
+      "size_kb": 761
+    },
+    {
+      "filename": "artwork2_met_680_unknown_diptych-with-the-adoration-of-the-magi-and-the-ver.jpg",
+      "source": "met",
+      "size_kb": 2355
+    },
+    {
+      "filename": "artwork2_met_681_unknown_crozier-head-with-double-enthroned-christ.jpg",
+      "source": "met",
+      "size_kb": 1779
+    },
+    {
+      "filename": "artwork2_met_682_peter-paul-rubens_portrait-of-a-man-possibly-an-architect-or-geograp.jpg",
+      "source": "met",
+      "size_kb": 1965
+    },
+    {
+      "filename": "artwork2_met_683_nicolas-poussin_saints-peter-and-john-healing-the-lame-man.jpg",
+      "source": "met",
+      "size_kb": 1778
+    },
+    {
+      "filename": "artwork2_met_684_giovanni-battista-gaulli-il-baciccio_pope-clement-x-15901676.jpg",
+      "source": "met",
+      "size_kb": 4365
+    },
+    {
+      "filename": "artwork2_met_685_gerard-david_virgin-and-child.jpg",
+      "source": "met",
+      "size_kb": 2998
+    },
+    {
+      "filename": "artwork2_met_686_jacopo-tintoretto-jacopo-robusti_portrait-of-a-man.jpg",
+      "source": "met",
+      "size_kb": 3310
+    },
+    {
+      "filename": "artwork2_met_687_currier-ives_the-true-issue-or-thats-whats-the-matter.jpg",
+      "source": "met",
+      "size_kb": 3025
+    },
+    {
+      "filename": "artwork2_met_688_currier-ives_the-true-issue-or-thats-whats-the-matter.jpg",
+      "source": "met",
+      "size_kb": 5002
+    },
+    {
+      "filename": "artwork2_met_689_unknown_vessel-in-form-of-horned-quadruped.jpg",
+      "source": "met",
+      "size_kb": 45
+    },
+    {
+      "filename": "artwork2_met_690_unknown_jug-in-the-form-of-a-recumbent-bull.jpg",
+      "source": "met",
+      "size_kb": 1763
+    },
+    {
+      "filename": "artwork2_met_691_unknown_head-of-a-ruler.jpg",
+      "source": "met",
+      "size_kb": 2776
+    },
+    {
+      "filename": "artwork2_met_692_john-hill_view-near-fishkill-no-17-of-the-hudson-river-portf.jpg",
+      "source": "met",
+      "size_kb": 3983
+    },
+    {
+      "filename": "artwork2_met_693_unknown_martyrdom-of-saint-lawrence.jpg",
+      "source": "met",
+      "size_kb": 2143
+    },
+    {
+      "filename": "artwork2_met_694_georges-jacob_side-chair-chais-à-la-reine-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1444
+    },
+    {
+      "filename": "artwork2_met_695_william-linnell_standing-shelf-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1352
+    },
+    {
+      "filename": "artwork2_met_696_georges-jacob_side-chair-chais-à-la-reine-one-of-a-pair.jpg",
+      "source": "met",
+      "size_kb": 1444
+    },
+    {
+      "filename": "artwork2_met_697_giovanni-battista-tiepolo_the-apotheosis-of-the-spanish-monarchy.jpg",
+      "source": "met",
+      "size_kb": 2938
+    },
+    {
+      "filename": "artwork2_met_698_goya_ferdinand-vii-17841833-when-prince-of-asturias.jpg",
+      "source": "met",
+      "size_kb": 4055
+    },
+    {
+      "filename": "artwork2_met_699_jean-michelin_the-bakers-cart.jpg",
+      "source": "met",
+      "size_kb": 2708
+    },
+    {
+      "filename": "artwork2_met_700_goya-francisco-de-goya-y-lucientes_a-radiant-female-figure-beset-by-dark-spirits-page.jpg",
+      "source": "met",
+      "size_kb": 1988
+    },
+    {
+      "filename": "artwork2_met_701_jean-françois-cuvilliés-the-elder_commode.jpg",
+      "source": "met",
+      "size_kb": 2152
+    },
+    {
+      "filename": "artwork2_met_702_meissen-manufactory_eagle-owl.jpg",
+      "source": "met",
+      "size_kb": 1172
+    },
+    {
+      "filename": "artwork2_met_703_meissen-manufactory_two-opera-singers.jpg",
+      "source": "met",
+      "size_kb": 1045
+    },
+    {
+      "filename": "artwork2_met_704_hendrick-goudt_tobias-and-the-angel-small-plate.jpg",
+      "source": "met",
+      "size_kb": 1982
+    },
+    {
+      "filename": "artwork2_met_705_lucas-cranach-the-elder-and-workshop_johann-i-14681532-the-constant-elector-of-saxony.jpg",
+      "source": "met",
+      "size_kb": 2720
+    },
+    {
+      "filename": "artwork2_met_706_hugo-van-der-goes_a-benedictine-monk.jpg",
+      "source": "met",
+      "size_kb": 4499
+    },
+    {
+      "filename": "artwork2_met_707_joos-van-cleve_the-holy-family.jpg",
+      "source": "met",
+      "size_kb": 2597
+    },
+    {
+      "filename": "artwork2_met_708_robert-barker_the-new-testament-the-book-of-common-prayer.jpg",
+      "source": "met",
+      "size_kb": 3689
+    },
+    {
+      "filename": "artwork2_met_709_hugo-van-der-goes_the-adoration-of-the-magi.jpg",
+      "source": "met",
+      "size_kb": 3329
+    },
+    {
+      "filename": "artwork2_met_710_herri-met-de-bles_the-temptation-of-saint-anthony.jpg",
+      "source": "met",
+      "size_kb": 2476
+    },
+    {
+      "filename": "artwork2_met_711_pierre-paul-prudhon_charles-maurice-de-talleyrand-périgord-17541838-pr.jpg",
+      "source": "met",
+      "size_kb": 2143
+    },
+    {
+      "filename": "artwork2_met_712_hakuin-ekaku_portrait-of-bodhidharma.jpg",
+      "source": "met",
+      "size_kb": 1467
+    },
+    {
+      "filename": "artwork2_met_713_giovanni-di-francesco-del-cervelliera_portrait-of-a-woman.jpg",
+      "source": "met",
+      "size_kb": 2780
+    },
+    {
+      "filename": "artwork2_met_714_unknown_christ-carrying-the-cross-called-the-lord-of-the-f.jpg",
+      "source": "met",
+      "size_kb": 5900
+    },
+    {
+      "filename": "artwork2_met_715_william-blake_songs-of-innocence-the-divine-image.jpg",
+      "source": "met",
+      "size_kb": 2039
+    },
+    {
+      "filename": "artwork2_met_716_nanha_page-of-calligraphy-illuminated-with-animals-and-p.jpg",
+      "source": "met",
+      "size_kb": 3510
+    },
+    {
+      "filename": "artwork2_met_717_sultan-muhammad-nur_anthology-of-persian-poetry-in-oblong-format-safin.jpg",
+      "source": "met",
+      "size_kb": 1512
+    },
+    {
+      "filename": "artwork2_met_718_farid-al-din-attar_shaikh-sanan-beneath-the-window-of-the-christian-m.jpg",
+      "source": "met",
+      "size_kb": 4167
+    },
+    {
+      "filename": "artwork2_met_719_abul-qasim-firdausi_isfandiyars-third-course-he-slays-a-dragon-folio-f.jpg",
+      "source": "met",
+      "size_kb": 3272
+    },
+    {
+      "filename": "artwork2_met_720_unknown_youth-and-dervish.jpg",
+      "source": "met",
+      "size_kb": 4383
+    },
+    {
+      "filename": "artwork2_met_721_sir-edward-john-poynter_the-west-wind-lynmouth.jpg",
+      "source": "met",
+      "size_kb": 2538
+    },
+    {
+      "filename": "artwork2_met_722_mir-ali-haravi_unwan-folio-from-the-shah-jahan-album.jpg",
+      "source": "met",
+      "size_kb": 4735
+    },
+    {
+      "filename": "artwork2_met_723_esther-howland_valentine-with-lace-paper-and-faux-pearls.jpg",
+      "source": "met",
+      "size_kb": 4363
+    },
+    {
+      "filename": "artwork2_met_724_david-roentgen_commode-à-vantaux.jpg",
+      "source": "met",
+      "size_kb": 2570
+    },
+    {
+      "filename": "artwork2_met_725_bohemian-painter_virgin-and-child-enthroned.jpg",
+      "source": "met",
+      "size_kb": 6990
+    },
+    {
+      "filename": "artwork2_met_726_unknown_head-from-a-figure-with-a-beaded-headdress.jpg",
+      "source": "met",
+      "size_kb": 1423
+    },
+    {
+      "filename": "artwork2_met_727_jacopo-della-quercia-jacopo-di-pietro-da_design-fragment-for-the-left-side-of-the-fonte-gai.jpg",
+      "source": "met",
+      "size_kb": 4187
+    },
+    {
+      "filename": "artwork2_met_728_jacopo-bellini_madonna-and-child.jpg",
+      "source": "met",
+      "size_kb": 3953
+    },
+    {
+      "filename": "artwork2_met_729_jean-claude-duplessis_two-wall-sconces-bras-de-cheminée.jpg",
+      "source": "met",
+      "size_kb": 1446
+    },
+    {
+      "filename": "artwork2_met_730_unknown_bronze-statuette-of-a-philosopher-on-a-lamp-stand.jpg",
+      "source": "met",
+      "size_kb": 1040
+    },
+    {
+      "filename": "artwork2_met_731_edgar-degas_horse-trotting-the-feet-not-touching-the-ground.jpg",
+      "source": "met",
+      "size_kb": 166
+    },
+    {
+      "filename": "artwork2_met_732_unknown_priest-in-a-leopard-skin-cloak-with-an-inscription.jpg",
+      "source": "met",
+      "size_kb": 1058
+    },
+    {
+      "filename": "artwork2_met_733_unknown_one-of-a-pair-of-vases-with-dragon-handles.jpg",
+      "source": "met",
+      "size_kb": 559
+    },
+    {
+      "filename": "artwork2_met_734_pierre-jean-david-dangers_alphonse-de-gisors-17961866.jpg",
+      "source": "met",
+      "size_kb": 2230
+    },
+    {
+      "filename": "artwork2_met_735_unknown_flying-apsaras-hiten.jpg",
+      "source": "met",
+      "size_kb": 136
+    },
+    {
+      "filename": "artwork2_met_736_unknown_monstrous-male-figure.jpg",
+      "source": "met",
+      "size_kb": 472
+    },
+    {
+      "filename": "artwork2_met_737_massimiliano-soldani_model-for-a-portrait-medal-of-francesco-redi.jpg",
+      "source": "met",
+      "size_kb": 2677
+    },
+    {
+      "filename": "artwork2_met_738_unknown_panel-for-a-skirt-or-petticoat.jpg",
+      "source": "met",
+      "size_kb": 2158
+    },
+    {
+      "filename": "artwork2_met_739_unknown_case-étui-with-an-amorous-inscription.jpg",
+      "source": "met",
+      "size_kb": 885
+    },
+    {
+      "filename": "artwork2_met_740_abul-qasim-firdausi_isfandiyars-fourth-course-he-slays-a-sorceress-fol.jpg",
+      "source": "met",
+      "size_kb": 3195
+    },
+    {
+      "filename": "artwork2_met_741_abul-qasim-firdausi_sam-seals-his-pact-with-sindukht-folio-85v-from-th.jpg",
+      "source": "met",
+      "size_kb": 4399
+    },
+    {
+      "filename": "artwork2_met_742_hans-schlaffer-of-ulm_the-sudarium.jpg",
+      "source": "met",
+      "size_kb": 2457
+    },
+    {
+      "filename": "artwork2_met_743_albrecht-dürer_the-whore-of-babylon-from-the-apocalypse.jpg",
+      "source": "met",
+      "size_kb": 4018
+    },
+    {
+      "filename": "artwork2_met_744_thomas-rowlandson_a-seamans-wifes-reckoning.jpg",
+      "source": "met",
+      "size_kb": 3842
+    },
+    {
+      "filename": "artwork2_met_745_thomas-rowlandson_a-seamans-wifes-reckoning.jpg",
+      "source": "met",
+      "size_kb": 3810
+    },
+    {
+      "filename": "artwork2_met_746_anonymous_valentine.jpg",
+      "source": "met",
+      "size_kb": 3548
+    },
+    {
+      "filename": "artwork2_met_747_honoré-daumier_plate-30-robert-macaire-before-his-judges-from-car.jpg",
+      "source": "met",
+      "size_kb": 3691
+    },
+    {
+      "filename": "artwork2_met_748_arnold-böcklin_island-of-the-dead.jpg",
+      "source": "met",
+      "size_kb": 1602
+    },
+    {
+      "filename": "artwork2_met_749_uto-gyoshi_musk-cat.jpg",
+      "source": "met",
+      "size_kb": 3732
+    },
+    {
+      "filename": "artwork2_met_750_charles-nègre_spartan-soldier.jpg",
+      "source": "met",
+      "size_kb": 2270
+    },
+    {
+      "filename": "artwork2_met_751_giacomo-ceruti_an-old-man-with-a-dog.jpg",
+      "source": "met",
+      "size_kb": 2630
+    },
+    {
+      "filename": "artwork2_met_752_zhao-mengjian_poems-on-painting-plum-blossoms-and-bamboo.jpg",
+      "source": "met",
+      "size_kb": 483
+    },
+    {
+      "filename": "artwork2_met_753_unknown_krishna-steals-the-gopis-clothing-page-from-a-disp.jpg",
+      "source": "met",
+      "size_kb": 1696
+    },
+    {
+      "filename": "artwork2_met_754_jacopo-zucchi_jupiter-fighting-the-giants.jpg",
+      "source": "met",
+      "size_kb": 2372
+    },
+    {
+      "filename": "artwork2_met_755_unidentified-artist_eighteen-songs-of-a-nomad-flute-the-story-of-lady.jpg",
+      "source": "met",
+      "size_kb": 3078
+    },
+    {
+      "filename": "artwork2_met_756_unknown_mandala-of-wakamiya-of-kasuga-shrine-kasuga-wakami.jpg",
+      "source": "met",
+      "size_kb": 3244
+    },
+    {
+      "filename": "artwork2_met_757_william-michael-harnett_still-lifeviolin-and-music.jpg",
+      "source": "met",
+      "size_kb": 2141
+    },
+    {
+      "filename": "artwork2_met_758_pieter-claesz_still-life-with-a-skull-and-a-writing-quill.jpg",
+      "source": "met",
+      "size_kb": 1824
+    },
+    {
+      "filename": "artwork2_met_759_fidelia-bridges_still-life.jpg",
+      "source": "met",
+      "size_kb": 5599
+    },
+    {
+      "filename": "artwork2_met_760_camille-pissarro_still-life-with-apples-and-pitcher.jpg",
+      "source": "met",
+      "size_kb": 5658
+    },
+    {
+      "filename": "artwork2_met_761_paul-gauguin_still-life-with-teapot-and-fruit.jpg",
+      "source": "met",
+      "size_kb": 3461
+    },
+    {
+      "filename": "artwork2_met_762_paul-cézanne_still-life-with-apples-and-a-pot-of-primroses.jpg",
+      "source": "met",
+      "size_kb": 2919
+    },
+    {
+      "filename": "artwork2_met_763_paul-cézanne_still-life-with-apples-and-pears.jpg",
+      "source": "met",
+      "size_kb": 5203
+    },
+    {
+      "filename": "artwork2_met_764_otto-marseus-van-schrieck_still-life-with-poppy-insects-and-reptiles.jpg",
+      "source": "met",
+      "size_kb": 2283
+    },
+    {
+      "filename": "artwork2_met_765_georg-flegel_still-life.jpg",
+      "source": "met",
+      "size_kb": 3978
+    },
+    {
+      "filename": "artwork2_met_766_james-peale_still-life-balsam-apple-and-vegetables.jpg",
+      "source": "met",
+      "size_kb": 3171
+    },
+    {
+      "filename": "artwork2_met_767_paul-cézanne_still-life-with-a-ginger-jar-and-eggplants.jpg",
+      "source": "met",
+      "size_kb": 4996
+    },
+    {
+      "filename": "artwork2_met_768_dirck-van-rijswijck_floral-still-life.jpg",
+      "source": "met",
+      "size_kb": 1761
+    },
+    {
+      "filename": "artwork2_met_769_willem-claesz-heda_still-life-with-oysters-a-silver-tazza-and-glasswa.jpg",
+      "source": "met",
+      "size_kb": 1459
+    },
+    {
+      "filename": "artwork2_met_770_jacques-de-gheyn-ii_vanitas-still-life.jpg",
+      "source": "met",
+      "size_kb": 1703
+    },
+    {
+      "filename": "artwork2_met_771_henri-fantin-latour_still-life-with-flowers-and-fruit.jpg",
+      "source": "met",
+      "size_kb": 3009
+    },
+    {
+      "filename": "artwork2_met_772_philippe-rousseau_still-life-with-ham.jpg",
+      "source": "met",
+      "size_kb": 2692
+    },
+    {
+      "filename": "artwork2_met_773_raphaelle-peale_still-life-with-cake.jpg",
+      "source": "met",
+      "size_kb": 2419
+    },
+    {
+      "filename": "artwork2_met_774_auguste-renoir_still-life-with-peaches.jpg",
+      "source": "met",
+      "size_kb": 3105
+    },
+    {
+      "filename": "artwork2_met_775_alexandre-françois-desportes_still-life-with-silver.jpg",
+      "source": "met",
+      "size_kb": 2227
+    },
+    {
+      "filename": "artwork2_met_776_unknown_snuffbox-with-still-life.jpg",
+      "source": "met",
+      "size_kb": 2386
+    },
+    {
+      "filename": "artwork2_met_777_paul-cézanne_still-life-with-jar-cup-and-apples.jpg",
+      "source": "met",
+      "size_kb": 2372
+    },
+    {
+      "filename": "artwork2_met_778_auguste-renoir_still-life-with-flowers-and-prickly-pears.jpg",
+      "source": "met",
+      "size_kb": 3441
+    },
+    {
+      "filename": "artwork2_met_779_auguste-renoir_still-life-with-peaches-and-grapes.jpg",
+      "source": "met",
+      "size_kb": 5649
+    },
+    {
+      "filename": "artwork2_met_780_panfilo-nuvolone_still-life-of-grapes-and-peaches.jpg",
+      "source": "met",
+      "size_kb": 3152
+    },
+    {
+      "filename": "artwork2_met_781_joris-hoefnagel_still-life-with-flowers-a-snail-and-insects.jpg",
+      "source": "met",
+      "size_kb": 2260
+    },
+    {
+      "filename": "artwork2_met_782_orsola-maddalena-caccia_fruit-and-flowers.jpg",
+      "source": "met",
+      "size_kb": 4764
+    },
+    {
+      "filename": "artwork2_met_783_orsola-maddalena-caccia_flowers-in-a-grotesque-vase.jpg",
+      "source": "met",
+      "size_kb": 5032
+    },
+    {
+      "filename": "artwork2_met_784_john-a-woodside_still-life-peaches-and-grapes.jpg",
+      "source": "met",
+      "size_kb": 2605
+    },
+    {
+      "filename": "artwork2_met_785_bartolomeo-cavarozzi_basket-of-fruit.jpg",
+      "source": "met",
+      "size_kb": 4400
+    },
+    {
+      "filename": "artwork2_met_786_jang-seung-eop-pen-name-owon_still-life-with-bronze-vessels-and-flowering-plant.jpg",
+      "source": "met",
+      "size_kb": 2013
+    },
+    {
+      "filename": "artwork2_met_787_jean-françois-roumier_the-louis-xv-room.jpg",
+      "source": "met",
+      "size_kb": 2042
+    },
+    {
+      "filename": "artwork2_met_788_riza-yi-abbasi_study-of-a-bird.jpg",
+      "source": "met",
+      "size_kb": 2849
+    },
+    {
+      "filename": "artwork2_met_789_unknown_the-deity-vajrabhairava-tantric-form-of-the-bodhis.jpg",
+      "source": "met",
+      "size_kb": 8177
+    },
+    {
+      "filename": "artwork2_met_790_calima-yotoco-artist_headdress-ornament.jpg",
+      "source": "met",
+      "size_kb": 2382
+    },
+    {
+      "filename": "artwork2_met_791_botticelli-alessandro-di-mariano-filipep_madonna-adoring-the-child.jpg",
+      "source": "met",
+      "size_kb": 2056
+    },
+    {
+      "filename": "artwork2_met_792_ike-no-taiga_paintings-by-taigadō-with-colophons.jpg",
+      "source": "met",
+      "size_kb": 1154
+    },
+    {
+      "filename": "artwork2_met_793_ike-no-taiga_pine-tree-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 3904
+    },
+    {
+      "filename": "artwork2_met_794_ike-no-taiga_evening-glow-in-a-mountain-village-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 2697
+    },
+    {
+      "filename": "artwork2_met_795_ike-no-taiga_fishing-boat-on-reed-covered-bank-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 2676
+    },
+    {
+      "filename": "artwork2_met_796_ike-no-taiga_mountain-and-calligraphy.jpg",
+      "source": "met",
+      "size_kb": 1861
+    },
+    {
+      "filename": "artwork2_met_797_cui-he_portrait-of-li-xiangjun.jpg",
+      "source": "met",
+      "size_kb": 1582
+    },
+    {
+      "filename": "artwork2_met_798_unidentified-artist_reading-a-sutra-by-moonlight.jpg",
+      "source": "met",
+      "size_kb": 3411
+    },
+    {
+      "filename": "artwork2_met_799_wang-yuanqi_wangchuan-villa.jpg",
+      "source": "met",
+      "size_kb": 2874
+    },
+    {
+      "filename": "artwork2_met_800_jacob-van-ruisdael_grainfields.jpg",
+      "source": "met",
+      "size_kb": 3025
+    },
+    {
+      "filename": "artwork2_met_801_yelan-xinggui_chinese-poem-on-seeking-a-reclusive-life-in-the-mo.jpg",
+      "source": "met",
+      "size_kb": 1718
+    },
+    {
+      "filename": "artwork2_met_802_māori-artist_kapeu-ear-ornament.jpg",
+      "source": "met",
+      "size_kb": 1565
+    },
+    {
+      "filename": "artwork2_met_803_mi-youren_cloudy-mountains.jpg",
+      "source": "met",
+      "size_kb": 1092
+    },
+    {
+      "filename": "artwork2_met_804_urakami-uragami-gyokudō_lingering-rain-over-half-the-village.jpg",
+      "source": "met",
+      "size_kb": 6650
+    },
+    {
+      "filename": "artwork2_met_805_tobias-verhaecht_wooded-landscape-with-stag-hunt.jpg",
+      "source": "met",
+      "size_kb": 2256
+    }
+  ]
+}

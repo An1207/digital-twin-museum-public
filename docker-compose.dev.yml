@@ -1,0 +1,81 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    working_dir: /app/backend
+    environment: 
+      DATABASE_URL: ${DATABASE_URL:-sqlite:////runtime/sqlite/local_3dgs.db} 
+      ASSET_ROOT: ${ASSET_ROOT:-/runtime/assets}
+      IMAGE_ROOT: ${IMAGE_ROOT:-/runtime/database/images}
+      MANIFEST_ROOT: ${MANIFEST_ROOT:-/runtime/database/metadata/manifests}
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:3000,http://127.0.0.1:3000}
+      STARTUP_STATUS_FILE: /runtime/startup-status.json
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      MINIMAX_API_KEY: ${MINIMAX_API_KEY:-}
+      JWT_SECRET: ${JWT_SECRET:?Set a random JWT_SECRET of at least 32 bytes}
+      AUTH_SEED_USERS: ${AUTH_SEED_USERS:-false}
+      LOAD_DEMO_DATA: ${LOAD_DEMO_DATA:-false}
+      ACCESS_TOKEN_TTL_SECONDS: ${ACCESS_TOKEN_TTL_SECONDS:-900}
+      REFRESH_TOKEN_TTL_SECONDS: ${REFRESH_TOKEN_TTL_SECONDS:-604800}
+      AUTH_ADMIN_EMAIL: ${AUTH_ADMIN_EMAIL:-admin@digital-twin.local}
+      AUTH_ADMIN_PASSWORD: ${AUTH_ADMIN_PASSWORD:-}
+      AUTH_CURATOR_EMAIL: ${AUTH_CURATOR_EMAIL:-curator_1@digital-twin.local}
+      AUTH_CURATOR_PASSWORD: ${AUTH_CURATOR_PASSWORD:-}
+      AUTH_VISITOR_EMAIL: ${AUTH_VISITOR_EMAIL:-visitor@digital-twin.local}
+      AUTH_VISITOR_PASSWORD: ${AUTH_VISITOR_PASSWORD:-}
+      AUTH_WRITER_EMAIL: ${AUTH_WRITER_EMAIL:-writer_1@digital-twin.local}
+      AUTH_WRITER_PASSWORD: ${AUTH_WRITER_PASSWORD:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o}
+      META_PROVIDER: ${META_PROVIDER:-openai}
+      VISUAL_PROVIDER: ${VISUAL_PROVIDER:-clip}
+      BLENDER_BIN: ${BLENDER_BIN:-blender} 
+      BLENDER_MCP_PORT: ${BLENDER_MCP_PORT:-9876} 
+      HF_HOME: /runtime/huggingface 
+      PYTHONPATH: /app/backend 
+      WATCHFILES_FORCE_POLLING: "true"
+    command: > 
+      sh -lc " 
+      uvicorn main:app --host 0.0.0.0 --port 8000 --reload --reload-dir /app/backend 
+      " 
+    volumes:
+      - ./backend:/app/backend
+      - ./database:/runtime/database
+      - ./backend/data:/runtime/sqlite
+      - ./backend/local_assets:/runtime/assets
+      - backend_huggingface:/runtime/huggingface
+    ports:
+      - "127.0.0.1:8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+
+  frontend:
+    image: node:22-alpine
+    working_dir: /app/frontend
+    environment: 
+      VITE_USE_MOCK_API: "false" 
+      VITE_API_PROXY_TARGET: http://backend:8000 
+      CHOKIDAR_USEPOLLING: "true"
+      CHOKIDAR_INTERVAL: "100"
+    command: > 
+      sh -lc " 
+      npm ci && 
+      npm run dev -- --host 0.0.0.0 --port 3000 
+      "
+    volumes:
+      - ./frontend:/app/frontend
+      - frontend_node_modules:/app/frontend/node_modules
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  frontend_node_modules:
+  backend_huggingface:
