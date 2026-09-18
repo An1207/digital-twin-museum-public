@@ -25,13 +25,37 @@
   --color-text-muted: #b29e8d;
   --color-text-inverse: #14130c;
   --color-text-accent: #e8f0d5;
-  --font-mapo-golden-pier: Georgia, serif;
-  --font-bookk-myungjo: Georgia, serif;
-  --font-abril-fatface: Georgia, serif;
+  --font-mapo-golden-pier: 'Mapo Golden Pier', Georgia, serif;
+  --font-bookk-myungjo: 'Bookk Myungjo', Georgia, serif;
+  --font-abril-fatface: 'Abril Fatface', Georgia, serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Mapo Golden Pier';
+  src: url('/fonts/MapoGoldenPier.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bookk Myungjo';
+  src: url('/fonts/BookkMyungjo_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('/fonts/AbrilFatface-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @layer base {

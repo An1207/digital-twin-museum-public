@@ -30,7 +30,8 @@ RUN grep -vE '^torch([<>=].*)?$' /tmp/requirements.txt > /tmp/requirements.docke
 
 COPY backend /app/backend
 COPY database /seed/database
-RUN mkdir -p /seed/assets /runtime/sqlite
+COPY backend/local_assets /seed/assets
+RUN mkdir -p /runtime/sqlite
 COPY deploy/backend-entrypoint.sh /app/deploy/backend-entrypoint.sh
 
 RUN chmod +x /app/deploy/backend-entrypoint.sh

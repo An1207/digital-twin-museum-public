@@ -27,10 +27,11 @@ Ports bind to loopback. Compose is for local development, not Internet hosting.
 Keep `PUBLIC_BASE_URL` empty for the frontend's same-origin asset proxy.
 Curator self-registration is disabled; an administrator must provision access.
 
-No production database, login sessions, `.env`, internal notes, exports,
-uploaded images, generated speech or previous Git history are included. Bring
-authorized assets; see [ASSETS.md](ASSETS.md). Startup creates an empty SQLite
-schema. Legacy demo artworks require `LOAD_DEMO_DATA=true` and an explicitly provisioned writer.
+No production database, login sessions, `.env`, internal prompts, account data,
+uploaded images, exports or previous Git history are included. The repository does
+include an allowlisted public content seed, pre-generated storytelling audio and
+3D/font assets; see [ASSETS.md](ASSETS.md). `LOAD_DEMO_DATA=true` plus an explicitly
+provisioned writer imports 53 artworks, 108 published story versions and 50 TTS assets.
 
 External generation requires your own provider configuration and may incur charges.
 Never place provider keys in `VITE_*` variables or client source.

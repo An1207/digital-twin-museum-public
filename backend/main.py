@@ -54,6 +54,7 @@ from runtime_config import (
 from startup_status import current_startup_status, write_startup_status
 from security import RequestLimits, contained_path, rate_limiter, validate_model_upload
 from asset_access import ProtectedAssets
+from public_seed import seed_public_content
 from auth import (
     ACCESS_TOKEN_TTL_SECONDS,
     REFRESH_TOKEN_TTL_SECONDS,
@@ -4606,6 +4607,14 @@ async def startup_event():
     write_startup_status(55, "seed", "Checking seed data")
     if os.getenv("LOAD_DEMO_DATA", "false").lower() == "true":
         init_db()
+        content_db = SessionLocal()
+        try:
+            owner_user_id = _resolve_legacy_artwork_owner_user_id(content_db)
+            if owner_user_id is not None:
+                imported = seed_public_content(content_db, owner_user_id, ASSET_ROOT_DIR)
+                logger.info("public content seed imported: %s", imported)
+        finally:
+            content_db.close()
 
     write_startup_status(58, "ownership", "Backfilling shared artwork ownership")
     ownership_db = SessionLocal()

@@ -21,11 +21,8 @@ backend/data/*.bak_*.db
 backend/data/evaluation_reports/
 backend/data/startup_status.json
 
-# 자산 파일 - 외부 스토리지로 관리 (ASSETS.md 참조)
-# DB는 앱 첫 실행 시 자동 생성됨 (artworks_seed.txt 기반)
-backend/local_assets/**/*.glb
+# DB는 앱 첫 실행 시 자동 생성됨 (public content seed 기반)
 backend/local_assets/**/*.ply
-backend/local_assets/tts/
 database/images/artworks/
 
 # Legacy root paths
@@ -75,13 +72,7 @@ screenshots/
 *.zip
 *.bak
 exports/
-backend/local_assets/
-*.glb
-*.gltf
-*.ttf
-*.otf
-*.woff
-*.woff2
 **/*Zone.Identifier*
 .pytest_cache/
+.pytest-tmp/
 *.tsbuildinfo

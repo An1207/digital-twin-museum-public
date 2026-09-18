@@ -29,7 +29,6 @@ backend/.tmp/
 **/*.sqlite*
 **/*.pem
 **/*.key
-backend/local_assets/
 exports/
 
 **/__pycache__

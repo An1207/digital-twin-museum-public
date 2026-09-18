@@ -28,6 +28,7 @@ import auth
 import main
 import models
 import asset_access
+import public_seed
 from security import RateLimiter, contained_path, validate_model_upload
 
 
@@ -286,6 +287,60 @@ def test_public_artwork_list_does_not_expose_owner_id(client, db):
     assert payload["count"] == 1
     assert payload["data"][0]["title"] == "Public"
     assert "owner_user_id" not in payload["data"][0]
+
+
+def test_public_content_seed_imports_only_sanitized_fields(db, tmp_path):
+    owner = make_user(db)
+    audio_path = tmp_path / "assets" / "tts" / "storytelling_version_10" / "sample.mp3"
+    audio_path.parent.mkdir(parents=True)
+    audio_path.write_bytes(b"ID3-public-audio")
+    seed_path = tmp_path / "public-content.json"
+    seed_path.write_text(
+        """{
+          "schemaVersion": 1,
+          "artworks": [{
+            "id": 7, "title": "Public work", "artist": "Artist",
+            "assetFolderName": "public-work", "isPublicDomain": true,
+            "currentStorytellingVersionId": 10
+          }],
+          "stories": [{
+            "id": 10, "artworkId": 7, "versionNumber": 1,
+            "storyTitle": "Public story", "storyText": "Safe published text."
+          }],
+          "ttsAssets": [{
+            "storytellingVersionId": 10, "voiceId": "voice",
+            "audioPath": "tts/storytelling_version_10/sample.mp3",
+            "audioSizeBytes": 16
+          }]
+        }""",
+        encoding="utf-8",
+    )
+
+    counts = public_seed.seed_public_content(db, owner.id, tmp_path / "assets", seed_path)
+    assert counts == {"artworks": 1, "stories": 1, "tts": 1}
+    artwork = db.get(models.Artwork, 7)
+    version = db.get(models.ArtworkStorytellingVersion, 10)
+    tts = db.query(models.TtsAsset).filter_by(storytelling_version_id=10).one()
+    assert artwork.current_storytelling_version_id == version.id
+    assert version.prompt_json == {}
+    assert version.request_note is None and version.generation_metadata_json is None
+    assert tts.trace_id is None and tts.provider_metadata is None
+    assert tts.audio_url == "/assets/tts/storytelling_version_10/sample.mp3"
+
+
+def test_bundled_public_content_seed_matches_bundled_audio(db):
+    owner = make_user(db)
+    counts = public_seed.seed_public_content(
+        db,
+        owner.id,
+        BACKEND / "local_assets",
+        BACKEND / "data" / "public_content_seed.json",
+    )
+    assert counts == {"artworks": 53, "stories": 108, "tts": 50}
+    assert db.query(models.Artwork).count() == 53
+    assert db.query(models.ArtworkStorytellingVersion).count() == 108
+    assert db.query(models.TtsAsset).count() == 50
+    assert all(row.prompt_json == {} for row in db.query(models.ArtworkStorytellingVersion).all())
 
 
 def test_startup_from_empty_database(db, monkeypatch):

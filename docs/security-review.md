@@ -19,7 +19,9 @@ repository. It is not a penetration-test report or a guarantee of security.
 - Removed private prompt context, provider metadata, filesystem paths and
   unpublished versions from public storytelling responses.
 - Disabled demo data by default and removed production databases, environment
-  files, generated media, exports, internal documents and old Git history.
+  files, account data, internal prompts, exports, internal documents and old Git
+  history. Published stories and pre-generated media are imported from an
+  allowlisted seed that contains no authentication or provider credentials.
 - Updated and pinned frontend/backend dependencies. Automated dependency and
   secret scanning is configured for the public repository.
 

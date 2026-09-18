@@ -22,8 +22,8 @@ been eliminated. Compose is deliberately localhost-only. Before public hosting:
   authenticated loaders cannot forward tokens to third-party resources.
 - Browser tokens still use localStorage. Harden CSP and avoid untrusted scripts;
   migrate to HttpOnly cookies with CSRF protection for production use.
-- Review font/model redistribution rights independently. Public source visibility
-  is not a license grant for third-party assets.
+- Font/model/audio assets are included at the repository owner's direction. Review
+  redistribution rights independently; public visibility is not a license grant.
 - Re-run dependency/container scans before deployment. Docker/Blender, paid API
   calls and full GPU inference are outside the source review's runtime checks.
 
